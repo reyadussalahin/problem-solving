@@ -144,6 +144,22 @@ Here category_name and sub_category_name has been used to create directory
     - articulation bridge
 - string
 - computational_geometry
+- hackercup
+- codejam
+
+#### Round names for codejam, hackercup etc
+- Codejam round name convention:
+    - qualification
+    - round01A
+    - round02A
+    - round03A
+    - round02
+    - round03
+- Hackercup round name convention:
+    - qualification
+    - round01
+    - round02
+    - round03
 
 More categories and sub categories will added with time
 
