@@ -28,10 +28,10 @@ Example:
 ### For contest like codejam, hackercup etc.
 **Format: {contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}**  
 Example:  
-- C: codejam/Y2019/round1A/FAlienRhyme/Solution.c
-- CPP: codejam/Y2019/round1A/FAlienRhyme/Solution.cpp
-- Java: codejam/Y2019/round1A/FAlienRhyme/Solution.java
-- Python: codejam/Y2019/round1A/FAlienRhyme/Solution.py
+- C: codejam/Y2019/round01A/FAlienRhyme/Solution.c
+- CPP: codejam/Y2019/round01A/FAlienRhyme/Solution.cpp
+- Java: codejam/Y2019/round01A/FAlienRhyme/Solution.java
+- Python: codejam/Y2019/round01A/FAlienRhyme/Solution.py
 ### For multiple solutions
 If there are multiple solutions, then name the second solution file as Solution001.{ext} such as Solution001.c,
 and third solution file as Solution002.c and so on ...
