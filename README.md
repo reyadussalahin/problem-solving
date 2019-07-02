@@ -43,7 +43,7 @@ and third solution file as Solution002.c and so on ...
     - problem link (must)
     - contest link (if exists)
     - author name  (it's good to add author name)
-    - time         (not mandatory)
+    - time         (not mandatory)  
 Example:  
 ```
 // problem: https://codeforces.com/contest/558/problem/E
@@ -61,10 +61,10 @@ Example:
 3. Add a README.md file in the solution folder to explain the solutions
 ### README in category
 It should explain what the category. Let us take data structure as an example. We should try to explain:
-1. what is data structure
-2. why it is needed
-3. some examples of data structures
-4. some use case of data structures
+1. What is data structure
+2. Why it is needed
+3. Some examples of data structures
+4. Some use case of data structures
 etc.
 
 **N.B. :**
@@ -125,9 +125,15 @@ Here category_name and sub_category_name has been used to create directory
 - complete_search:
     - loop
     - recursion
-- binary_search
+- binary_search:
 - math:
 - dynamic_programming:
+    - coin change
+    - knapsack
+    - lis
+    - lcs
+    - matrix_chain_mul
+    - random
 - greedy:
 - data_structure:
     - array
@@ -163,7 +169,7 @@ Here category_name and sub_category_name has been used to create directory
     - round02
     - round03
 
-More categories and sub categories will added with time
+More categories and sub categories will be added with time
 
 
 **Any one is welcome to contribute!!!**
