@@ -1,3 +1,7 @@
+// problem: https://www.facebook.com/hackercup/problem/589264531559040/
+// contest: https://www.facebook.com/hackercup/contest
+// author: reyad
+
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.StringTokenizer;

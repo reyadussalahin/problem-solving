@@ -1,3 +1,8 @@
+// problem: https://www.facebook.com/hackercup/problem/862237970786911/
+// contest: https://www.facebook.com/hackercup/contest
+// author: reyad
+
+
 #include <bits/stdc++.h>
 
 using namespace std;

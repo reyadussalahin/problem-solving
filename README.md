@@ -116,6 +116,8 @@ Here oj_name has been used to create directory
     - oj_name: hackerrank
 - [Hackerearth:](https://www.hackerearth.com/)
     - oj_name: hackerearth
+- [Lightoj:](http://lightoj.com/)
+    - oj_name: loj
 
 
 # Category and Sub-Category list
