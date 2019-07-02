@@ -142,8 +142,8 @@ Here category_name and sub_category_name has been used to create directory
     - bfs
     - dfs
     - scc
-    - articulation point
-    - articulation bridge
+    - articulation_point
+    - articulation_bridge
 - string
 - computational_geometry
 - hackercup
