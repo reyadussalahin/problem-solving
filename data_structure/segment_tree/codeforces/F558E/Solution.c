@@ -1,3 +1,7 @@
+// problem: https://codeforces.com/contest/558/problem/E
+// contest: https://codeforces.com/contest/558
+// author: reyad
+
 #include<stdio.h>
 #define N 100100
  
