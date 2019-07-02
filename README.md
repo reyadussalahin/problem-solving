@@ -2,14 +2,15 @@
 This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide
 an easier way to learn problem solutions as well as the concepts of data structures and algorithms.
 
+
 # Languages used for solution
 - C
 - C++
 - Java
 - Python
 
+
 # How to structure the problem solutions
-## The structure to organize the problem solutions is basically as follows:
 ### For ojs, those provide unique problem id
 **Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}**  
 Example:  
@@ -35,6 +36,7 @@ Example:
 If there are multiple solutions, then name the second solution file as Solution001.{ext} such as Solution001.c,
 and third solution file as Solution002.c and so on ...
 
+
 # What the source file should contain
 1. Source file must contain a working solution
 2. At top of the source file add(you must add this in "comment"):
@@ -42,13 +44,16 @@ and third solution file as Solution002.c and so on ...
     - contest link (if exists)
     - author name  (it's good to add author name)
     - time         (not mandatory)
-Example:
+Example:  
+```
 // problem: https://codeforces.com/contest/558/problem/E
 // contest: https://codeforces.com/contest/558
 // author: reyad
     #include <stdio.h>
     #define N 100100
     ....
+```
+
 
 # How to provide a way for easy learning
 1. Add a README.md file in the category folder to explain the category
@@ -96,20 +101,22 @@ May be some much better way be found out later to explain things more easily. Bu
 2. For other resource categories use:
  - {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name} directory
 
+
 # OJ list:
 Here oj_name has been used to create directory
 - [Codeforces:](https://codeforces.com)
- - oj_name: codeforces
+    - oj_name: codeforces
 - [Codechef:](https://www.codechef.com/)
- - oj_name: codechef
+    - oj_name: codechef
 - [Timus:](http://acm.timus.ru/)
- - oj_name: timus
+    - oj_name: timus
 - [UVa:](https://uva.onlinejudge.org/)
- - oj_name: uva
+    - oj_name: uva
 - [Hackerrank:](https://www.hackerrank.com/)
- - oj_name: hackerrank
+    - oj_name: hackerrank
 - [Hackerearth:](https://www.hackerearth.com/)
- - oj_name: hackerearth
+    - oj_name: hackerearth
+
 
 # Category and Sub-Category list
 Here category_name and sub_category_name has been used to create directory
@@ -139,6 +146,7 @@ Here category_name and sub_category_name has been used to create directory
 - computational_geometry
 
 More categories and sub categories will added with time
+
 
 **Any one is welcome to contribute!!!**
 
