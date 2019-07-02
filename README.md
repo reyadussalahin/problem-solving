@@ -153,8 +153,8 @@ Here category_name and sub_category_name has been used to create directory
 - Codejam round name convention:
     - qualification
     - round01A
-    - round02A
-    - round03A
+    - round01B
+    - round01C
     - round02
     - round03
 - Hackercup round name convention:
