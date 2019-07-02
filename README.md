@@ -9,27 +9,29 @@ an easier way to learn problem solutions as well as the concepts of data structu
 - Python
 
 # How to structure the problem solutions
-### The structure to organize the problem solutions is basically as follows:
-#### for ojs, those provide unique problem id
-{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}
-Example:
+## The structure to organize the problem solutions is basically as follows:
+### For ojs, those provide unique problem id
+**Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}**  
+Example:  
 - C: data_structure/segment_tree/codeforces/F558E/Solution.c
 - CPP: data_structure/segment_tree/codeforces/F558E/Solution.cpp
 - Java: data_structure/segment_tree/codeforces/F558E/Solution.java
 - Python: data_structure/segment_tree/codeforces/F558E/Solution.py
-#### for ojs, those provide unique name
-{category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}
+### For ojs, those provide unique name
+**Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}**  
+Example:  
 - C: data_structure/stack/hackerrank/FBalancedBrackets/Solution.c
 - CPP: data_structure/stack/hackerrank/FBalancedBrackets/Solution.cpp
 - Java: data_structure/stack/hackerrank/FBalancedBrackets/Solution.java
 - Python: data_structure/stack/hackerrank/FBalancedBrackets/Solution.py
-### for contest like codejam, hackercup etc.
-{contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}
+### For contest like codejam, hackercup etc.
+**Format: {contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}**  
+Example:  
 - C: codejam/Y2019/round1A/FAlienRhyme/Solution.c
 - CPP: codejam/Y2019/round1A/FAlienRhyme/Solution.cpp
 - Java: codejam/Y2019/round1A/FAlienRhyme/Solution.java
 - Python: codejam/Y2019/round1A/FAlienRhyme/Solution.py
-### for multiple solutions
+### For multiple solutions
 If there are multiple solutions, then name the second solution file as Solution001.{ext} such as Solution001.c,
 and third solution file as Solution002.c and so on ...
 
@@ -48,7 +50,7 @@ Example:
     #define N 100100
     ....
 
-# How to provide easy learning procedure
+# How to provide a way for easy learning
 1. Add a README.md file in the category folder to explain the category
 2. Add a README.md file in the sub category folder to explain the sub category
 3. Add a README.md file in the solution folder to explain the solutions
@@ -60,8 +62,11 @@ It should explain what the category. Let us take data structure as an example. W
 4. some use case of data structures
 etc.
 
-N.B. : to add images for better explanation, keep the images in {category_name}/{resources}/{images} directory
-and for other resource categories use {category_name}/{resources}/{resource_category_name} directory
+**N.B. :**
+1. To add images for better explanation, keep the images in:
+ - {category_name}/{resources}/{images} directory
+2. For other resource categories use:
+ - {category_name}/{resources}/{resource_category_name} directory
 
 ### README in sub category
 It should explain what the subcategory is. Let us assume segment tree:
@@ -71,8 +76,11 @@ It should explain what the subcategory is. Let us assume segment tree:
 4. Modifications of segement tree like using Lazy propagations with examples
 etc.
 
-N.B. : to add images for better explanation, keep the images in {category_name}/{sub_category_name}/{resources}/{images} directory
-and for other resource categories use {category_name}/{sub_category_name}/{resources}/{resource_category_name} directory
+**N.B. :**
+1. To add images for better explanation, keep the images in:
+ - {category_name}/{sub_category_name}/{resources}/{images} directory
+2. For other resource categories use:
+ - {category_name}/{sub_category_name}/{resources}/{resource_category_name} directory
 
 ### README in solution folder
 1. It should contain problem link
@@ -82,23 +90,26 @@ and for other resource categories use {category_name}/{sub_category_name}/{resou
 
 May be some much better way be found out later to explain things more easily. But in the mean time let's follow this procedure.
 
-N.B. : to add images for better explanation, keep the images in {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{images} directory
-and for other resource categories use {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name} directory
+**N.B. :**
+1. To add images for better explanation, keep the images in:
+ - {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{images} directory
+2. For other resource categories use:
+ - {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name} directory
 
 # OJ list:
 Here oj_name has been used to create directory
 - [Codeforces:](https://codeforces.com)
-    - oj_name: codeforces
+ - oj_name: codeforces
 - [Codechef:](https://www.codechef.com/)
-    - oj_name: codechef
+ - oj_name: codechef
 - [Timus:](http://acm.timus.ru/)
-    - oj_name: timus
+ - oj_name: timus
 - [UVa:](https://uva.onlinejudge.org/)
-    - oj_name: uva
+ - oj_name: uva
 - [Hackerrank:](https://www.hackerrank.com/)
-    - oj_name: hackerrank
+ - oj_name: hackerrank
 - [Hackerearth:](https://www.hackerearth.com/)
-    - oj_name: hackerearth
+ - oj_name: hackerearth
 
 # Category and Sub-Category list
 Here category_name and sub_category_name has been used to create directory
@@ -129,5 +140,5 @@ Here category_name and sub_category_name has been used to create directory
 
 More categories and sub categories will added with time
 
-### Any one is welcome to contribute!!!
+**Any one is welcome to contribute!!!**
 
