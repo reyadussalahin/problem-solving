@@ -8,7 +8,7 @@ an easier way to learn problem solutions as well as the concepts of data structu
 - C++
 - Java
 - Python
-- JavaScript
+- JavaScript(nodejs)
 
 
 # How to structure the problem solutions
@@ -120,6 +120,7 @@ Here oj_name has been used to create directory
 - [Lightoj:](http://lightoj.com/)
     - oj_name: loj
 - [SPOJ:](https://www.spoj.com/)
+    - oj_name: spoj
 
 
 # Category and Sub-Category list
@@ -135,7 +136,7 @@ Here category_name and sub_category_name has been used to create directory
     - combinatorics
     - number_theory
 - dynamic_programming:
-    - coin change
+    - coin_change
     - knapsack
     - lis
     - lcs
