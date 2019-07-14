@@ -8,7 +8,7 @@ an easier way to learn problem solutions as well as the concepts of data structu
 - C++
 - Java
 - Python
-- JavaScript(nodejs)
+- JavaScript(NodeJS)
 
 
 # How to structure the problem solutions
@@ -125,6 +125,8 @@ Here oj_name has been used to create directory
 
 # Category and Sub-Category list
 Here category_name and sub_category_name has been used to create directory
+- ad_hoc:
+    - implementation
 - complete_search:
     - loop
     - recursion
