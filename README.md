@@ -127,12 +127,18 @@ Here oj_name has been used to create directory
 Here category_name and sub_category_name has been used to create directory
 - ad_hoc:
     - implementation
-- complete_search:
+- brute_force:
     - loop
     - recursion
-- binary_search:
+- search:
+    - binary_search
+    - ternary_search
+- sort:
+    - insertion_sort
+    - merge_sort
+    - quick_sort
 - math:
-    - ad_hoc
+    - basic
     - probability
     - big_integer
     - combinatorics
@@ -154,13 +160,16 @@ Here category_name and sub_category_name has been used to create directory
     - segment_tree
     - sqrt_decomposition
     - treap
-- graph
+- graph:
     - bfs
     - dfs
     - scc
     - articulation_point
     - articulation_bridge
-- string
+- string:
+    - basic
+    - kmp
+    - trie
 - computational_geometry
 - hackercup
 - codejam
