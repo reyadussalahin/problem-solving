@@ -19,7 +19,7 @@ Print the answer to the problem as "p/q", where p is a non-negative integer, q i
 
 
 # Solution
-To occupy the most out of the screen, we have to fit the image either with the horizontal line or vertical line of the screen. Now, the task is to determine with which side we have to fit the image.  
+To occupy the most out of the screen, we have to fit the image either with the horizontal line or with the vertical line of the screen. Now, the task is to determine with which side we have to fit the image.  
 This can be easily determine by calcualting h/v(here, h = horizontal_length, and v = vertical length) of both screen and image and then by comparing them.  
 Let's say (h/v) of image is greater than (h/v) of screen.  
 Then, we've to fit the horizontal side of image with horizontal side of screen(because image's per unit of growth in vertical line results in a larger growth in horizontal line than screen). Otherwise, we would fit the vertical side.  
