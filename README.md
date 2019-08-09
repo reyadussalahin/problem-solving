@@ -130,6 +130,7 @@ Here category_name and sub_category_name has been used to create directory
 - brute_force:
     - loop
     - recursion
+    - backtracking
 - search:
     - binary_search
     - ternary_search
