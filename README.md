@@ -149,7 +149,7 @@ Here category_name and sub_category_name has been used to create directory
     - lis
     - lcs
     - matrix_chain_mul
-    - random
+    - non_classical
 - greedy:
 - data_structure:
     - array
