@@ -1,5 +1,5 @@
-// problem name: Incredible Molecules
-// problem link: http://lightoj.com/volume_showproblem.php?problem=1118
+// problem name: Kingdom Division
+// problem link: http://lightoj.com/volume_showproblem.php?problem=1385
 // contest link: (?)
 // time: (?)
 // author: reyad
@@ -146,6 +146,11 @@ public class Solution {
             this.b = p2.x - p1.x;
             this.c = p1.x * p2.y - p2.x * p1.y;
         }
+        LineReal(Point p1, Point p2) {
+            this.a = p1.y - p2.y;
+            this.b = p2.x - p1.x;
+            this.c = p1.x * p2.y - p2.x * p1.y;
+        }
         LineReal(double a, double b, double c) {
             this.a = a;
             this.b = b;
@@ -264,6 +269,19 @@ public class Solution {
             for (int i = 0; i < n; i++) a2t += Math.abs(triArea2(buf[i], p, buf[i + 1]));
             return (a2t == a2);
         }
+        PointReal[] cutPolygon(Point a, Point b) {
+            List<PointReal> p = new ArrayList<PointReal>();
+            LineReal ab = new LineReal(a, b);
+            for(int i=0; i<n; i++) {
+                long flag1 = (new Vec(a, buf[i])).cross(new Vec(b, buf[i]));
+                long flag2 = (new Vec(a, buf[i+1])).cross(new Vec(b, buf[i+1]));
+                if(flag1 >= 0) p.add(new PointReal(buf[i].x, buf[i].y));
+                if((flag1 >= 0 && flag2 <=0) || (flag1 <=0 && flag2 >=0)) p.add(ab.getIntersectionPoint(new LineReal(buf[i], buf[i+1])));
+            }
+            if(p.size() == 0 || p.size() == n) return null;
+            return p.toArray(new PointReal[p.size()]);
+        }
+ 
     }
  
     static boolean ccw(Point a, Point b, Point c) {
@@ -278,27 +296,14 @@ public class Solution {
         try {
             int tc = in.nextInt();
             for(int cc=0; cc<tc; cc++) {
-                Point o1 = new Point(in.nextInt(), in.nextInt());
-                int r1 = in.nextInt();
-                Point o2 = new Point(in.nextInt(), in.nextInt());
-                int r2 = in.nextInt();
+                double a = in.nextDouble();
+                double b = in.nextDouble();
+                double c = in.nextDouble();
  
-                double d = o1.dist(o2);
-                if(r1+r2 < d+1e-6) {
-                    out.println("Case " + (cc+1) + ": " + 0);
-                    continue;
-                }
-                if(Math.max(r1, r2)+1e-6 > Math.min(r1, r2) + d) {
-                    out.println("Case " + (cc+1) + ": " + (Math.PI * Math.min(r1, r2) * Math.min(r1, r2)));
-                    continue;
-                }
- 
-                double A = Math.acos((d * d + r1 * r1 - r2 * r2) / (2 * d * r1));
-                double B = Math.acos((r2 * r2 + d * d - r1 * r1) / (2 * d * r2));
- 
-                double area1 = r1 * r1 * (A - 0.5 * Math.sin(2*A));
-                double area2 = r2 * r2 * (B - 0.5 * Math.sin(2*B));
-                out.println("Case " + (cc+1) +": " + (area1 + area2));
+                double d = b * b - a*c;
+                double e = a * c * (2 * b + a + c);
+                if(d <= 0) out.println("Case " + (cc+1) + ": " + "-1");
+                else out.println("Case " + (cc+1) + ": " + (e / d));
             }
         }
         catch(IOException e) {
@@ -308,6 +313,8 @@ public class Solution {
 //            // expected
 //        }
     }
+ 
+ 
  
     public static void main(String[] args) {
         try {
