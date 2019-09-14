@@ -172,6 +172,10 @@ Here category_name and sub_category_name has been used to create directory
     - kmp
     - trie
 - computational_geometry
+    - basic
+    - convex_hull
+    - picks_theorem
+    - line_sweep
 - hackercup
 - codejam
 
