@@ -1,14 +1,14 @@
 # Contributing
-Before read this file please read the [README.md](../README.md) file in project root.\\
+Before read this file please read the [README.md](https://github.com/reyadussalahin/problem_solving/blob/dev/README.md) file in project root.
 
-You can contribute to this repository by
-	- adding solutions to problems
-	- writing tutorials for those solutions
-	- writing tutorials for different problem solving techniques related data structures and algorithms.
+You can contribute to this repository by  
+- adding solutions to problems
+- writing tutorials for those solutions
+- writing tutorials for different problem solving techniques related data structures and algorithms.
 
 
 ## Process of Contribution
-The process to contribute this repository may be summarized as follows:\\
+The process to contribute this repository may be summarized as follows:
 
 1. You must have a github account to contribute to this project. You if don't have one, then please create one.
 
@@ -16,13 +16,13 @@ The process to contribute this repository may be summarized as follows:\\
 
 3. Now, clone the forked repository which is under your account(the possible url may be - "https://github.com/{your_user_name}/problem_solving") into your local environment.
 
-4. Create an "upstream" to the main project i.e. [problem_solving](https://github.com/reyadussalahin/problem_solving) using the command *git remote add upstream https://github.com/reyadussalahin/problem_solving.git*.
+4. Create an "upstream" to the main project i.e. [problem_solving](https://github.com/reyadussalahin/problem_solving) using the command *"git remote add upstream https://github.com/reyadussalahin/problem_solving.git"*.
 
-5. Pull all the changes from root project dev branch by using the command *git pull upstream dev* and merge the changes to your remote dev by using *git push origin dev*
+5. Pull all the changes from root project dev branch by using the command *git pull upstream dev* and merge the changes to your remote dev by using *"git push origin dev"*.
 
 6. Now create a branch with the fix or changes with the name that you are doing. An example would be - if you are adding a solution for cf 233B problem, then give the branch name **add_cf233b**.
 
-7. Commit your changes in the new branch.
+7. Commit your changes in the new branch using *"git add file_name(s)"* and *"git commit -m commit_message"*. Replace file_name(s) with actual file names and commit_message with information about changes.
 
 8. Push the branch with changes to your remote repository using the command *git push origin branch_name*. Considering step(7) the "branch_name" would be replaced by "add_cf233B".
 
@@ -42,10 +42,10 @@ The process to contribute this repository may be summarized as follows:\\
 
 
 ## If you are new to git and github:
-If you are new, then you may use the following resources to get started very quickly with git and github:
-	- [Git Tutorials Playlist - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
-	- [The beginner’s guide to contributing to a GitHub project – Rob Allen's DevNotes](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
-	- [Git docs](https://git-scm.com/docs)
-	- Or you may use the command line help *git help command_name*. Help would be open in the terminal or your default browser.
+If you are new, then you may use the following resources to get started very quickly with git and github:  
+- [Git Tutorials Playlist - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
+- [The beginner’s guide to contributing to a GitHub project – Rob Allen's DevNotes](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+- [Git docs](https://git-scm.com/docs)
+- Or you may use the command line help *"git help command_name"*. Help would be open in the terminal or your default browser.
 
 **Anyone is Welcome to Contribute**
