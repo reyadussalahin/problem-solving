@@ -196,5 +196,7 @@ Here category_name and sub_category_name has been used to create directory
 More categories and sub categories will be added with time
 
 
-**Any one is welcome to contribute!!!**
+# Contributing
+To learn details about contributing, please read [Contributing](https://github.com/reyadussalahin/problem_solving/blob/dev/contributing/README.md) file.
 
+**Any one is welcome to contribute!!!**
