@@ -16,7 +16,7 @@ The process to contribute this repository may be summarized as follows:
 5. Pull all the changes from root project dev branch by using the command *"git pull upstream dev"* and merge the changes to your remote dev by using *"git push origin dev"*.
 6. Now create a branch with the name of fixes or changes you are making(means "the name" should reflect what changes/fixes you are making). An example would be - if you are adding a solution for cf 233B problem, then give the branch name "add_cf233b".
 7. Commit your changes in the new branch using *"git add file_name(s)"* and *"git commit -m commit_message"*. Replace file_name(s) with actual file names(you may also use absolute file path) and commit_message with information about changes.
-8. Push the branch with changes to your remote repository using the command *git push origin branch_name*. Considering step(7) the "branch_name" would be replaced by "add_cf233B".
+8. Push the branch with changes to your remote repository using the command *"git push origin branch_name"*. Considering step(7) the "branch_name" would be replaced by "add_cf233B".
 9. Go to your remote repository and send a pull request to the root project repository.
 10. Always perform step(5) before creating any new branch for contribution and always try to pull the latest changes from the root repository's dev branch before commit and pull request.
 
