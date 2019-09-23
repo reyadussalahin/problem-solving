@@ -25,7 +25,8 @@ The process to contribute this repository may be summarized as follows:
 1. A new branch should contain only one fix, or one solution, or one tutorial, or one tutorial fix etc. **But never more than one.**
 2. To do another contribution, please use another branch.
 3. Make your dev branch always up to date with the root projects dev branch.
-4. Never contribute to the master branch. It would never be accepted.
+4. Please, never contribute to the master branch. It would never be accepted.
+5. And clearly write in the comment of pull request what you've contributed with specific points.
 
 
 ## If you are new to git and github:
