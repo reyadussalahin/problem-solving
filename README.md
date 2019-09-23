@@ -1,9 +1,8 @@
-# What is this repository about
-This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide
-an easier way to learn problem solutions as well as the concepts of data structures and algorithms.
+# What this repository is about
+This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way to learn problems' solutions as well as the related concepts of data structures and algorithms.
 
 
-# Languages used for solution
+# Languages used for solution (So far)
 - C
 - C++
 - Java
@@ -12,7 +11,7 @@ an easier way to learn problem solutions as well as the concepts of data structu
 
 
 # How to structure the problem solutions
-### For ojs, those provide unique problem id
+### For OJs, those provide unique problem id
 **Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}**  
 Example:  
 - C: data_structure/segment_tree/codeforces/F558E/Solution.c
@@ -40,11 +39,11 @@ and third solution file as Solution002.c and so on ...
 
 # What the source file should contain
 1. Source file must contain a working solution
-2. At top of the source file add(you must add this in "comment"):
+2. At top of the source file add(you must add this as "comment"):
     - problem link (must)
     - contest link (if exists)
     - author name  (it's good to add author name)
-    - time         (not mandatory)  
+    - timestamp         (not mandatory)  
 Example:  
 ```
 // problem: https://codeforces.com/contest/558/problem/E
@@ -104,7 +103,7 @@ May be some much better way be found out later to explain things more easily. Bu
 
 
 # OJ list:
-Here oj_name has been used to create directory
+These are the short-codes for "oj_name" that has been (and wil be) used to create directory
 - [Codeforces:](https://codeforces.com)
     - oj_name: codeforces
 - [Codechef:](https://www.codechef.com/)
@@ -124,7 +123,7 @@ Here oj_name has been used to create directory
 
 
 # Category and Sub-Category list
-Here category_name and sub_category_name has been used to create directory
+These are the short-codes for "category_name" and "sub_category_name" has been (and will be) used to create directory
 - ad_hoc:
     - implementation
 - brute_force:
@@ -180,20 +179,20 @@ Here category_name and sub_category_name has been used to create directory
 - codejam
 
 #### Round names for codejam, hackercup etc
-- Codejam round name convention:
+- *Codejam* round name convention:
     - qualification
     - round01A
     - round01B
     - round01C
     - round02
     - round03
-- Hackercup round name convention:
+- *Hackercup* round name convention:
     - qualification
     - round01
     - round02
     - round03
 
-More categories and sub categories will be added with time
+More categories and sub categories will be added later.
 
 
 # Contributing
