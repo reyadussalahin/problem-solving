@@ -43,14 +43,21 @@ and third solution file as Solution002.c and so on ...
     - problem link (must)
     - contest link (if exists)
     - author name  (it's good to add author name)
-    - timestamp         (not mandatory)  
-Example:  
+    - timestamp         (not mandatory)
+
+**Example:**
+
 ```
-// problem: https://codeforces.com/contest/558/problem/E
-// contest: https://codeforces.com/contest/558
+// problem name: A Simple Task
+// problem link: https://codeforces.com/contest/558/problem/E
+// contest link: https://codeforces.com/contest/558
 // author: reyad
+// timestamp: (?)
+
 #include <stdio.h>
 #define N 100100
+....
+....
 ....
 ```
 
@@ -68,10 +75,8 @@ It should explain what the category. Let us take data structure as an example. W
 etc.
 
 **N.B. :**
-1. To add images for better explanation, keep the images in:
- - {category_name}/{resources}/{images} directory
-2. For other resource categories use:
- - {category_name}/{resources}/{resource_category_name} directory
+1. To add images for better explanation, keep the images in: *"{category_name}/{resources}/{images}"* directory
+2. For other resource categories use: *"{category_name}/{resources}/{resource_category_name}"* directory
 
 ### README in sub category
 It should explain what the subcategory is. Let us assume segment tree:
@@ -82,10 +87,8 @@ It should explain what the subcategory is. Let us assume segment tree:
 etc.
 
 **N.B. :**
-1. To add images for better explanation, keep the images in:
- - {category_name}/{sub_category_name}/{resources}/{images} directory
-2. For other resource categories use:
- - {category_name}/{sub_category_name}/{resources}/{resource_category_name} directory
+1. To add images for better explanation, keep the images in: *"{category_name}/{sub_category_name}/{resources}/{images}"* directory
+2. For other resource categories use: *"{category_name}/{sub_category_name}/{resources}/{resource_category_name}"* directory
 
 ### README in solution folder
 1. It should contain problem link
@@ -96,14 +99,12 @@ etc.
 May be some much better way be found out later to explain things more easily. But in the mean time let's follow this procedure.
 
 **N.B. :**
-1. To add images for better explanation, keep the images in:
- - {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{images} directory
-2. For other resource categories use:
- - {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name} directory
+1. To add images for better explanation, keep the images in: *"{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{images}"* directory
+2. For other resource categories use: *"{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name}"* directory
 
 
 # OJ list:
-These are the short-codes for "oj_name" that has been (and wil be) used to create directory
+These are the short-codes for "oj_name" that has been (and will be) used to create directory
 - [Codeforces:](https://codeforces.com)
     - oj_name: codeforces
 - [Codechef:](https://www.codechef.com/)
