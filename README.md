@@ -18,6 +18,7 @@ Example:
 - CPP: data_structure/segment_tree/codeforces/F558E/Solution.cpp
 - Java: data_structure/segment_tree/codeforces/F558E/Solution.java
 - Python: data_structure/segment_tree/codeforces/F558E/Solution.py
+
 ### For ojs, those provide unique name
 **Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}**  
 Example:  
@@ -25,6 +26,7 @@ Example:
 - CPP: data_structure/stack/hackerrank/FBalancedBrackets/Solution.cpp
 - Java: data_structure/stack/hackerrank/FBalancedBrackets/Solution.java
 - Python: data_structure/stack/hackerrank/FBalancedBrackets/Solution.py
+
 ### For contest like codejam, hackercup etc.
 **Format: {contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}**  
 Example:  
@@ -32,9 +34,28 @@ Example:
 - CPP: codejam/Y2019/round01A/FAlienRhyme/Solution.cpp
 - Java: codejam/Y2019/round01A/FAlienRhyme/Solution.java
 - Python: codejam/Y2019/round01A/FAlienRhyme/Solution.py
+
 ### For multiple solutions
 If there are multiple solutions, then name the second solution file as Solution001.{ext} such as Solution001.c,
 and third solution file as Solution002.c and so on ...
+
+### For ACM ICPC World Finals
+**Format: {world_final}/{Y+year}/{F+problem_name}/{Solution.ext}**
+Example:
+- C: world_final/Y2017/FNeedForSpeed/Solution.c
+Its same for other languages
+
+### For ACM ICPC Regionals
+**Format: {regional}/{Y+year}/{site}/{F+problem_name}/{Solution.ext}**
+Example:
+- C: regional/Y2017/dhaka/FMegaMind/Solution.c
+Its same for other languages
+
+### For random contest
+**Format: {random_contest}/{Y+year}/{contest_name}/{F+problem_name}/{Solution.ext}**
+Example:
+- C: random_contest/Y2019/practice_for_preli/FLifeOfPhi/Solution.c
+Its same for other languages
 
 
 # What the source file should contain
