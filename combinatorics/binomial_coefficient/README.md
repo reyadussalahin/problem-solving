@@ -2,7 +2,7 @@
 
 <div style="text-align:center"><img src="images/1.png" /></div>
 
-### Calculate nCr where n*r<=10^7
+### Calculate nCr where n*r<=10^6
 
 The key idea to calculate the value nCr for this case is the properties of pascal's triangle. We are all familiar with the following formula:
 
@@ -33,8 +33,8 @@ void triangle ()
     {
         for (int j = 1; j <= i && j <= maxr + 1; j++)
     	{
-	        C[i][j] = (C[i - 1][j - 1] + C[i - 1][j]);	// to perform mod operation: (C[i-1][j-1]+C[i-1][j])%P;
-	    }
+	    C[i][j] = (C[i - 1][j - 1] + C[i - 1][j]);	// to perform mod operation: (C[i-1][j-1]+C[i-1][j])%P;
+	}
     }
 }
 
@@ -49,7 +49,6 @@ long long nCr (long long n, long long r)
 
 int main ()
 {
-
   triangle ();
   cout << nCr (50, 33) << endl;
 
