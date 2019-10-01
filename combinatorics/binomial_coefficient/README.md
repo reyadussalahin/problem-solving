@@ -6,7 +6,8 @@ Basically this documentation represents the implementation techniques described 
 
 - [Calculate nCr or nCr%P where n*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
 - [Calculate nCr%P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
-- [Calculate nCr%P where n,r<=10^18 but P is prime and P<=10^6]()
+- [Calculate nCr%P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncrp-where-nr1018-but-p-is-prime-and-p106)
+- [Calculate nCr%P with Chinese remainder theorem]()
 
 ## Calculate nCr or nCr%P where n*r<=10^6
 
@@ -229,4 +230,42 @@ int main()
         cout<<( 126%prime[i] )<<' '<<Lucas(9, 5, prime[i] )<<endl;
     }
 }
+```
+
+# Calculate nCr%P with Chinese remainder theorem
+
+Let's consider you need to calculate nCr%P where P isn't a prime. We can use Chinese remainder 
+theorem to solve this problem. We can split P into its prime divisors and count binomial
+ coefficients for each divisor and marge them using Chinese remainder theorem.
+ 
+ <div style="text-align:center"><img src="images/10.png" /></div>
+ 
+ ```c 
+long long n, prime[20], rim[20];
+long long bigMod(long long b, long long p, long long M)
+{
+    if(p==0)return 1;
+    long long tmp= bigMod (b, p/2,M);
+    tmp = (tmp * tmp)% M;
+    return (p%2==0)? tmp : ( b * tmp) % M;
+}
+
+long long INV(long long num, long long M)
+{
+    return bigMod(num,M-2,M);
+}
+
+long long ChineseRemainder( )
+{
+    long long product=1, x=0, pd;
+    for(int i=0;i<n;i++)
+         product*=prime[i];
+    for(int i=0;i<n;i++)
+    {
+        pd=product/prime[i];
+        x+=( rim[i] * pd * INV( pd, prime[i]) );
+        x%=product;
+    }
+    return x;
+} 
 ```
