@@ -5,6 +5,7 @@
 Basically this documentation represents the implementation techniques described in this [tutorial](https://youtu.be/1U3loHkX5XE) to calculate binomial coefficient (nCr). 
 
 - [Calculate nCr or nCr%P where n*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
+- [Calculate nCr%P where P is a prime and n, r <= 10^6]()
 
 ## Calculate nCr or nCr%P where n*r<=10^6
 
@@ -95,3 +96,82 @@ int main ()
 }
 ``` 
 
+# Calculate  nCr%P , where P is a prime and n,r<=10^6.
+
+<div style="text-align:center"><img src="images/4.png" /></div>
+
+Now we will have to count n! and the inverse factorial of (n-r)!r! .. we can compute 
+factorial values in linear time, i.e. in O(n) complexity.
+
+<div style="text-align:center"><img src="images/5.png" /></div>
+
+```c 
+long long fact[1000001];
+fact[0]=1;
+for(int i=1; i<=1000000;i++)
+{
+    fact[ i ] = ( 1LL * fact[i-1] * i ) % P;
+}
+```
+
+We’ve generated the values of ( n! )%P for any n (0<=n<=1000000). Now it’s time to count
+the inverse factorials. We will learn two approaches. First I will go with the easy one.
+
+<div style="text-align:center"><img src="images/6.png" /></div>
+
+Now we will need the value of (n^-1)!%P to count inverse factorials. The only way I know is using Big Mod theory.
+
+<div style="text-align:center"><img src="images/7.png" /></div>
+
+So inverse factorials can be written as,  ifact[ i ]= (ifact[ i-1 ] * inv( i ) )% P;
+
+```c 
+long long mpower (long long b, long long p, long long mod)
+{
+    if (p==0) return 1;
+    long long tmp = mpower(b, p/2, mod);
+    tmp= ( tmp * tmp )%mod;
+    return (p%2==0)? tmp : (b* tmp)%mod;
+}
+long long inv(long long n, long long mod)
+{
+    return mpower(n, mod-2, mod);
+}
+
+long long ifact[1000001];
+ifact[0]=1;
+for(int i =1;i<=1000000;i++)
+{
+    ifact[ i ] = ( 1LL * ifact[ i-1 ] * inv(i , P) )%P;
+}
+
+```
+The complexity of this generation is O(n log n). Actually it’s O (n log P). The inv( ) function takes
+log P time to generate value.
+
+Now as we have both factorials and inverse factorials. So its time to compute nCr.
+
+```c 
+long long nCr ( long long n, long long r)
+{
+    if(r>n)return 0;
+    long long ans;
+    ans=( (1LL * fact[n] * ifact[n-r] )%P * ifact[r] ) %P;
+    return ans;
+}
+```
+
+<div style="text-align:center"><img src="images/8.png" /></div>
+
+```c 
+in[0] = 0, in[1] = 1;
+for(int i=2; i<=1000000; i++)
+{
+    in[ i ] = (1LL * ( (P-1)* (P/i) )%P * in[ P%i ] )%P;
+}
+ifact2[0] = 1;
+for(int i=1; i<=1000000; i++)
+{
+    ifact2[ i ]= (1LL * ifact2[ i-1 ] * in[ i ] )%P;
+}
+```
