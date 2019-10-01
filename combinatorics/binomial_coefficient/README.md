@@ -7,7 +7,7 @@ Basically this documentation represents the implementation techniques described 
 - [Calculate nCr or nCr%P where n*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
 - [Calculate nCr%P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
 - [Calculate nCr%P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncrp-where-nr1018-but-p-is-prime-and-p106)
-- [Calculate nCr%P with Chinese remainder theorem]()
+- [Calculate nCr%P with Chinese remainder theorem](#calculate-ncrp-with-chinese-remainder-theorem)
 
 ## Calculate nCr or nCr%P where n*r<=10^6
 
@@ -102,8 +102,8 @@ int main ()
 
 <div style="text-align:center"><img src="images/4.png" /></div>
 
-Now we will have to count n! and the inverse factorial of (n-r)!r! .. we can compute 
-factorial values in linear time, i.e. in O(n) complexity.
+Now we will have to count `n!` and the inverse factorial of `(n-r)!r!` .. we can compute 
+factorial values in linear time, i.e. in `O(n)` complexity.
 
 <div style="text-align:center"><img src="images/5.png" /></div>
 
@@ -116,16 +116,16 @@ for(int i=1; i<=1000000;i++)
 }
 ```
 
-We’ve generated the values of ( n! )%P for any n (0<=n<=1000000). Now it’s time to count
+We’ve generated the values of `( n! )%P` for any n `(0<=n<=1000000)`. Now it’s time to count
 the inverse factorials. We will learn two approaches. First I will go with the easy one.
 
 <div style="text-align:center"><img src="images/6.png" /></div>
 
-Now we will need the value of (n^-1)!%P to count inverse factorials. The only way I know is using Big Mod theory.
+Now we will need the value of `(n^-1)!%P` to count inverse factorials. The only way I know is using Big Mod theory.
 
 <div style="text-align:center"><img src="images/7.png" /></div>
 
-So inverse factorials can be written as,  ifact[ i ]= (ifact[ i-1 ] * inv( i ) )% P;
+So inverse factorials can be written as,  `ifact[ i ]= (ifact[ i-1 ] * inv( i ) )% P`;
 
 ```c 
 long long mpower (long long b, long long p, long long mod)
@@ -148,10 +148,10 @@ for(int i =1;i<=1000000;i++)
 }
 
 ```
-The complexity of this generation is O(n log n). Actually it’s O (n log P). The inv( ) function takes
-log P time to generate value.
+The complexity of this generation is `O(n log n)`. Actually it’s `O(n log P)`. The `inv( )` function takes
+`log P` time to generate value.
 
-Now as we have both factorials and inverse factorials. So its time to compute nCr.
+Now as we have both factorials and inverse factorials. So its time to compute `nCr`.
 
 ```c 
 long long nCr ( long long n, long long r)
@@ -234,8 +234,8 @@ int main()
 
 # Calculate nCr%P with Chinese remainder theorem
 
-Let's consider you need to calculate nCr%P where P isn't a prime. We can use Chinese remainder 
-theorem to solve this problem. We can split P into its prime divisors and count binomial
+Let's consider you need to calculate `nCr%P` where P isn't a prime. We can use `Chinese remainder 
+theorem` to solve this problem. We can split P into its prime divisors and count binomial
  coefficients for each divisor and marge them using Chinese remainder theorem.
  
  <div style="text-align:center"><img src="images/10.png" /></div>
