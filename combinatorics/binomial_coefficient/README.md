@@ -5,7 +5,8 @@
 Basically this documentation represents the implementation techniques described in this [tutorial](https://youtu.be/1U3loHkX5XE) to calculate binomial coefficient (nCr). 
 
 - [Calculate nCr or nCr%P where n*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
-- [Calculate nCr%P where P is a prime and n, r <= 10^6]()
+- [Calculate nCr%P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
+- [Calculate nCr%P where n,r<=10^18 but P is prime and P<=10^6]()
 
 ## Calculate nCr or nCr%P where n*r<=10^6
 
@@ -173,5 +174,59 @@ ifact2[0] = 1;
 for(int i=1; i<=1000000; i++)
 {
     ifact2[ i ]= (1LL * ifact2[ i-1 ] * in[ i ] )%P;
+}
+```
+
+# Calculate nCr%P where n,r<=10^18 but P is prime and P<=10^6
+
+To solve this problem we will need Lucas theorem. Because the Lucas
+theorem will reduce the problem to sub problems. In this theorem the n and r
+are converted to P base number and then we compute the same digit-location
+wise binomial coefficients. You can search about Lucas theorem to understand it more clearly.  Lucas theorem is given below :
+
+<div style="text-align:center"><img src="images/9.png" /></div>
+
+```c 
+long long in[1000001], fact[1000001], ifact[1000001];
+
+void generate(long long MX, long long P)
+{
+    fact[0]=1;
+    for(int i=1;i<=MX;i++) fact[i]=(1LL * fact[i-1] * i)%P;
+    in[0]=0,in[1]=1;
+    for(int i=2;i<=MX;i++) in[i]= (1LL * ( (P-1)* (P/i) )%P * in[P%i] )%P;
+    ifact[0]=1;
+    for(int i=1;i<=MX;i++) ifact[i]=(1LL * ifact[i-1] * in[i] )%P;
+}
+
+long long small_nCr(long long n, long long r, long long P)
+{
+    if(r>n)return 0;
+    long long ans;
+    ans=(1LL * fact[n] * ifact[n-r])%P;
+    ans=( ans * ifact[r] )%P;
+    return ans;
+}
+
+long long nCr(long long n, long long r, long long P)
+{
+    if(r==0)return 1;
+    long long ni=(n%P), ri=(r%P);
+    return ( nCr(n/P, r/P, P)* small_nCr(ni, ri, P)) %P;
+}
+
+long long Lucas(long long n, long long r, long long P)
+{
+    generate(P, P);
+    return nCr(n, r, P);
+}
+
+int main()
+{
+    long long prime[]={13,29,67,113,157,223};
+    for(int i=0;i<6;i++)
+    {
+        cout<<( 126%prime[i] )<<' '<<Lucas(9, 5, prime[i] )<<endl;
+    }
 }
 ```
