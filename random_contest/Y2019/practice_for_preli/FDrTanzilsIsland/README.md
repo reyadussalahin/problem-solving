@@ -1,6 +1,6 @@
 # Problem Description
 
-### Problem: [Life of Phi](https://toph.co/p/life-of-phi)
+### Problem: [Dr. Tanzil's Island](https://toph.co/p/dr-tanzil-s-island)
 ### Contest: [Practice Contest for the 2019 ICPC Asia Regional Dhaka Site Preliminary | Toph](https://toph.co/c/practice-icpc-2019-dhaka)
 ### Statement
 Dr Tanzil has a circular shaped lake that he bought long ago. One day while he was visiting there, he found out with great surprise that, there has risen a round shaped island exactly from the center of the lake. He was very happy and considered the island as a gift from God. He decided to use the island for the welfare of people. So he decided to build a library that would be open for everyone.
@@ -27,8 +27,11 @@ Radius of Lake = R2
 Radius of island = R1
 The distance between D and E = x
 ```
-See the following figure for clarification
-![Dr Tanzils Island](resources/images/dr_tanzil.png)
+See the figure for clarification
+<div style="text-align:center">
+	<img src="resources/images/dr_tanzil.png" alt="Dr. Tanzils Island" />
+</div>
+
 ```
 So, we may say that:
 The area of the island = pi * R2 * R2 - pi * R1 * R1
