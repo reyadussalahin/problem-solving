@@ -1,6 +1,6 @@
 # A Deep Dive into Computing Binomial Coefficient
 
-<div style="text-align:center"><img src="images/1.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/1.png" /></div>
 
 Basically this documentation represents the implementation techniques described in this [tutorial](https://youtu.be/1U3loHkX5XE) to calculate binomial coefficient (nCr). 
 
@@ -13,11 +13,11 @@ Basically this documentation represents the implementation techniques described 
 
 The key idea to calculate the value nCr for this case is the properties of pascal's triangle. We are all familiar with the following formula:
 
-<div style="text-align:center"><img src="images/2.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/2.png" /></div>
 
 Let's take a look at the below pascal's triangle (bad looking one!), and figure out how the values of the triangle justify  the equation. In the below triangle, value at x'th row and y'th column represent the value of xCy.
 
-<div style="text-align:center"><img src="images/3.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/3.png" /></div>
 
 
 **The advantage with this formula is you can modulo ans with any number even though the number isn’t prime. ( nCr % P)**
@@ -100,12 +100,12 @@ int main ()
 
 # Calculate  nCr%P , where P is a prime and n,r<=10^6.
 
-<div style="text-align:center"><img src="images/4.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/4.png" /></div>
 
 Now we will have to count `n!` and the inverse factorial of `(n-r)!r!` .. we can compute 
 factorial values in linear time, i.e. in `O(n)` complexity.
 
-<div style="text-align:center"><img src="images/5.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/5.png" /></div>
 
 ```c 
 long long fact[1000001];
@@ -119,11 +119,11 @@ for(int i=1; i<=1000000;i++)
 We’ve generated the values of `( n! )%P` for any n `(0<=n<=1000000)`. Now it’s time to count
 the inverse factorials. We will learn two approaches. First I will go with the easy one.
 
-<div style="text-align:center"><img src="images/6.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/6.png" /></div>
 
 Now we will need the value of `(n^-1)!%P` to count inverse factorials. The only way I know is using Big Mod theory.
 
-<div style="text-align:center"><img src="images/7.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/7.png" /></div>
 
 So inverse factorials can be written as,  `ifact[ i ]= (ifact[ i-1 ] * inv( i ) )% P`;
 
@@ -163,7 +163,7 @@ long long nCr ( long long n, long long r)
 }
 ```
 
-<div style="text-align:center"><img src="images/8.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/8.png" /></div>
 
 ```c 
 in[0] = 0, in[1] = 1;
@@ -185,7 +185,7 @@ theorem will reduce the problem to sub problems. In this theorem the n and r
 are converted to P base number and then we compute the same digit-location
 wise binomial coefficients. You can search about Lucas theorem to understand it more clearly.  Lucas theorem is given below :
 
-<div style="text-align:center"><img src="images/9.png" /></div>
+<div style="text-align:center"><img src="../resources/images/binomial_coefficient/9.png" /></div>
 
 ```c 
 long long in[1000001], fact[1000001], ifact[1000001];
@@ -238,7 +238,7 @@ Let's consider you need to calculate `nCr%P` where P isn't a prime. We can use `
 theorem` to solve this problem. We can split P into its prime divisors and count binomial
  coefficients for each divisor and marge them using Chinese remainder theorem.
  
- <div style="text-align:center"><img src="images/10.png" /></div>
+ <div style="text-align:center"><img src="../resources/images/binomial_coefficient/10.png" /></div>
  
  ```c 
 long long n, prime[20], rim[20];
