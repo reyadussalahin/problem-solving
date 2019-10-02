@@ -17,9 +17,10 @@ For each input, output the area of the lake. You need to be precise up to 4 deci
 
 # Solution
 Read this line very carefully
-```
-The only data available to complete this calculation is the length of slope that touches the side of the island at a point D and touches the lake side at another point E.
-```
+
+*The only data available to complete this calculation is the length of slope that touches
+the side of the island at a point D and touches the lake side at another point E.*
+
 ```
 Let's denote,
 Radius of Lake = R2
@@ -27,7 +28,7 @@ Radius of island = R1
 The distance between D and E = x
 ```
 See the following figure for clarification
-![Dr Tanzils Island](/resources/images/dr_tanzil.png)
+![Dr Tanzils Island](resources/images/dr_tanzil.png)
 ```
 So, we may say that:
 The area of the island = pi * R2 * R2 - pi * R1 * R1
