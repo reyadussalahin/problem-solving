@@ -17,14 +17,14 @@ When it comes to combinatorics, we often face problems which includes calculatio
 
 Here, we've discussed four ways to calculate binomial coefficient:
 
-- [Calculate nCr or nCr%P where n\*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
-- [Calculate nCr%P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
-- [Calculate nCr%P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncrp-where-nr1018-but-p-is-prime-and-p106)
-- [Calculate nCr%P with Chinese remainder theorem](#calculate-ncrp-with-chinese-remainder-theorem)
+- [Calculate nCr or nCr % P where n\*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
+- [Calculate nCr % P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
+- [Calculate nCr % P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncrp-where-nr1018-but-p-is-prime-and-p106)
+- [Calculate nCr % P with Chinese remainder theorem](#calculate-ncrp-with-chinese-remainder-theorem)
 <br />
 
 
-### Calculate nCr or nCr%P where n\*r <= 10^6
+### Calculate nCr or nCr % P where n\*r <= 10^6
 
 The key idea to calculate the value nCr for this case is the properties of pascal's triangle. We are all familiar with the following formula:
 
@@ -103,7 +103,7 @@ int main() {
 <br />
 
 
-### Calculate  nCr%P , where P is a prime and 0 <= n, r <=10^6.
+### Calculate  nCr % P , where P is a prime and 0 <= n, r <=10^6.
 
 <div style="text-align:center">
 	<img src="resources/images/binomial_coefficient_4.png" />
@@ -198,7 +198,7 @@ for(int i = 1; i <= 1000000; i++) {
 <br />
 
 
-### Calculate nCr%P where n,r <= 10^18 but P is prime and P <= 10^6
+### Calculate nCr % P where 0 <= n, r <= 10^18 but P is prime and 0 <= P <= 10^6
 
 To solve this problem we will need Lucas theorem. Because the Lucas theorem will reduce the problem to sub problems. In this theorem the n and r are converted to P base number and then we compute the same digit-location wise binomial coefficients. You can search about Lucas theorem to understand it more clearly. Lucas theorem is given below: <br/>
 
@@ -257,7 +257,7 @@ int main() {
 <br />
 
 
-### Calculate nCr%P with Chinese remainder theorem
+### Calculate nCr % P with Chinese remainder theorem
 
 Let's consider you need to calculate `nCr%P` where P isn't a prime. We can use `Chinese remainder 
 theorem` to solve this problem. We can split P into its prime divisors and count binomial coefficients for each divisor and marge them using Chinese remainder theorem.<br />
@@ -273,7 +273,7 @@ long long bigMod(long long b, long long p, long long M) {
     if(p == 0)return 1;
     long long tmp = bigMod (b, p/2,M);
     tmp = (tmp * tmp) % M;
-    return (p%2 == 0) ? tmp : (b * tmp) % M;
+    return ((p % 2) == 0) ? tmp : ((b * tmp) % M);
 }
 
 long long INV(long long num, long long M) {
@@ -285,7 +285,7 @@ long long ChineseRemainder() {
     for(int i = 0; i < n; i++) product *= prime[i];
     for(int i = 0; i < n; i++) {
         pd = product / prime[i];
-        x += (rim[i] * pd * INV(pd, prime[i]) );
+        x += (rim[i] * pd * INV(pd, prime[i]));
         x %= product;
     }
     return x;
