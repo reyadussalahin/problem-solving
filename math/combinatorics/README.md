@@ -17,10 +17,10 @@ When it comes to combinatorics, we often face problems which includes calculatio
 
 Here, we've discussed four ways to calculate binomial coefficient:
 
-- [Calculate nCr or nCr % P where n\*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
-- [Calculate nCr % P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
-- [Calculate nCr % P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncrp-where-nr1018-but-p-is-prime-and-p106)
-- [Calculate nCr % P with Chinese remainder theorem](#calculate-ncrp-with-chinese-remainder-theorem)
+- [Calculate nCr or nCr % P where n\*r <= 10^6](#calculate-ncr-or-ncr--p-where-nr--106)
+- [Calculate nCr % P where P is a prime and n, r <= 10^6](#calculate--ncr--p--where-p-is-a-prime-and-0--n-r-106)
+- [Calculate nCr % P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncr--p-where-0--n-r--1018-but-p-is-prime-and-0--p--106)
+- [Calculate nCr % P with Chinese remainder theorem](#calculate-ncr--p-with-chinese-remainder-theorem)
 <br />
 
 
