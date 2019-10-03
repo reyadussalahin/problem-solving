@@ -1,7 +1,7 @@
 # Combinatorics
 There are a lot of computational math problems that needs knowledge of combinatorics to solve. And it is often hard to interpret proper combinatorial relationships in problems. Most often these relations can be expressed in a recursive manner using lower order terms. This tutorial is produced to explain such relationships and calculations associated with those relations.
 
-So, let's sit, grab a coffee and enjoy the rest.
+So, lets have a seat, grab a coffee and enjoy the rest.
 <br />
 
 
