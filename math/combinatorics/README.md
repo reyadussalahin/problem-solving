@@ -17,14 +17,14 @@ When it comes to combinatorics, we often face problems which includes calculatio
 
 Here, we've discussed four ways to calculate binomial coefficient:
 
-- [Calculate nCr or nCr % P where n\*r <= 10^6](#calculate-ncr-or-ncrp-where-nr106)
-- [Calculate nCr % P where P is a prime and n, r <= 10^6](#calculate--ncrp--where-p-is-a-prime-and-nr106)
-- [Calculate nCr % P where n,r<=10^18 but P is prime and P<=10^6](#calculate-ncrp-where-nr1018-but-p-is-prime-and-p106)
-- [Calculate nCr % P with Chinese remainder theorem](#calculate-ncrp-with-chinese-remainder-theorem)
+- [Calculate nCr or nCr % P where n \* r <= 10^6](#calculate-ncr-or-ncr--p-where-n--r--106)
+- [Calculate nCr % P where P is a prime and n, r <= 10^6](#calculate--ncr--p--where-p-is-a-prime-and-0--n-r--106)
+- [Calculate nCr % P where n, r <= 10^18 but P is prime and P <= 10^6](#calculate-ncr--p-where-0--n-r--1018-but-p-is-prime-and-0--p--106)
+- [Calculate nCr % P with Chinese remainder theorem](#calculate-ncr--p-with-chinese-remainder-theorem)
 <br />
 
 
-### Calculate nCr or nCr % P where n\*r <= 10^6
+### Calculate nCr or nCr % P where n \* r <= 10^6
 
 The key idea to calculate the value nCr for this case is the properties of pascal's triangle. We are all familiar with the following formula:
 
@@ -103,7 +103,7 @@ int main() {
 <br />
 
 
-### Calculate  nCr % P , where P is a prime and 0 <= n, r <=10^6.
+### Calculate  nCr % P , where P is a prime and 0 <= n, r <= 10^6.
 
 <div style="text-align:center">
 	<img src="resources/images/binomial_coefficient_4.png" />
@@ -121,6 +121,7 @@ factorial values in linear time, i.e. in `O(n)` complexity.<br />
 
 ```c 
 long long fact[1000001];
+
 fact[0] = 1;
 for(int i = 1; i <= 1000000; i++) {
     fact[i] = (1LL * fact[i-1] * i) % P;
@@ -144,14 +145,14 @@ Now we will need the value of `(n^-1)! % P` to count inverse factorials. The way
 <br />
 
 
-So inverse factorials can be written as,  `ifact[ i ]= (ifact[ i-1 ] * inv( i ) )% P`;
+So inverse factorials can be written as,  `ifact[i]= (ifact[i - 1] * inv(i)) % P`;
 
 ```c 
 long long mpower(long long b, long long p, long long mod) {
 	if(p == 0) return 1;
-	long long tmp = mpower(b, p/2, mod);
-	tmp= (tmp * tmp) % mod;
-	return ((p % 2) == 0)? tmp : (b* tmp) % mod;
+	long long tmp = mpower(b, p / 2, mod);
+	tmp = (tmp * tmp) % mod;
+	return ((p % 2) == 0) ? tmp : (b* tmp) % mod;
 }
 
 long long inv(long long n, long long mod) {
@@ -159,6 +160,7 @@ long long inv(long long n, long long mod) {
 }
 
 long long ifact[1000001];
+
 ifact[0] = 1;
 for(int i = 1; i <= 1000000; i++) {
 	ifact[i] = (1LL * ifact[i-1] * inv(i , P)) % P;
@@ -188,8 +190,9 @@ long long nCr(long long n, long long r) {
 ```c 
 in[0] = 0, in[1] = 1;
 for(int i = 2; i <= 1000000; i++) {
-	in[i] = (1LL * ((P-1)* (P / i)) % P * in[P % i]) % P;
+	in[i] = (1LL * ((P-1) * (P / i)) % P * in[P % i]) % P;
 }
+
 ifact2[0] = 1;
 for(int i = 1; i <= 1000000; i++) {
 	ifact2[i] = (1LL * ifact2[i-1] * in[i]) % P;
@@ -212,18 +215,17 @@ long long in[1000001], fact[1000001], ifact[1000001];
 
 void generate(long long MX, long long P) {
 	fact[0] = 1;
-	for(int i = 1;i <= MX; i++) {
+	for(int i = 1; i <= MX; i++) {
 		fact[i] = (1LL * fact[i-1] * i) % P;
 	}
 	
-	in[0] = 0;
-	in[1]=1;
+	in[0] = 0; in[1] = 1;
 	for(int i = 2; i <= MX; i++) {
 		in[i] = (1LL * ((P-1) * (P / i)) % P * in[P % i] ) % P;
 	}
 
 	ifact[0] = 1;
-	for(int i = 1;i <= MX; i++) {
+	for(int i = 1; i <= MX; i++) {
 		ifact[i] = (1LL * ifact[i-1] * in[i]) % P;
 	}
 }
@@ -238,7 +240,7 @@ long long small_nCr(long long n, long long r, long long P) {
 
 long long nCr(long long n, long long r, long long P) {
 	if(r == 0) return 1;
-	long long ni = (n%P), ri = (r % P);
+	long long ni = (n % P), ri = (r % P);
 	return (nCr(n / P, r / P, P) * small_nCr(ni, ri, P)) % P;
 }
 
@@ -249,9 +251,11 @@ long long Lucas(long long n, long long r, long long P) {
 
 int main() {
 	long long prime[] = {13, 29, 67, 113, 157, 223};
+
 	for(int i = 0; i < 6; i++) {
 		cout << (126 % prime[i]) << ' ' << Lucas(9, 5, prime[i]) << endl;
 	}
+	return 0;
 }
 ```
 <br />
@@ -269,25 +273,26 @@ theorem` to solve this problem. We can split P into its prime divisors and count
 
 ```c 
 long long n, prime[20], rim[20];
+
 long long bigMod(long long b, long long p, long long M) {
-    if(p == 0)return 1;
-    long long tmp = bigMod (b, p/2,M);
-    tmp = (tmp * tmp) % M;
-    return ((p % 2) == 0) ? tmp : ((b * tmp) % M);
+	if(p == 0)return 1;
+	long long tmp = bigMod (b, p/2,M);
+	tmp = (tmp * tmp) % M;
+	return ((p % 2) == 0) ? tmp : ((b * tmp) % M);
 }
 
 long long INV(long long num, long long M) {
-    return bigMod(num, M-2, M);
+	return bigMod(num, M-2, M);
 }
 
 long long ChineseRemainder() {
-    long long product = 1, x = 0, pd;
-    for(int i = 0; i < n; i++) product *= prime[i];
-    for(int i = 0; i < n; i++) {
-        pd = product / prime[i];
-        x += (rim[i] * pd * INV(pd, prime[i]));
-        x %= product;
-    }
-    return x;
+	long long product = 1, x = 0, pd;
+	for(int i = 0; i < n; i++) product *= prime[i];
+	for(int i = 0; i < n; i++) {
+		pd = product / prime[i];
+		x += (rim[i] * pd * INV(pd, prime[i]));
+		x %= product;
+	}
+	return x;
 }
 ```
