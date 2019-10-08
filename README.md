@@ -63,7 +63,7 @@ If there are multiple solutions, then name the second solution file as Solution0
     - problem link (must)
     - contest link (if exists)
     - author name  (it's good to add author name)
-    - timestamp         (not mandatory)
+    - time         (not mandatory)
 
 **Example:**
 
@@ -187,6 +187,9 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
     - scc
     - articulation_point
     - articulation_bridge
+    - sssp
+    - bipartite_matching
+    - max_flow
 - string:
     - basic
     - kmp
@@ -215,6 +218,8 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
 
 More categories and sub categories will be added later.
 
+# Getting Started With this repository
+You can start learning from this repository right away. If you are a beginner, start your journey from [this file](contents/README.md)
 
 # Contributing
 To learn details about contributing, please read [Contributing](https://github.com/reyadussalahin/problem_solving/blob/dev/contributing/README.md) file.
