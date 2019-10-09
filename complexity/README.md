@@ -9,4 +9,7 @@ Complexity is of two types, when it comes to solving problems using a Computer. 
 1. Memory/Space Complexity
 2. Time Complexity
 
+# About Constant Complexity
+Before going to explain more about complexity and it's types, let us clear something. Complexity may also be divided into two kinds on basis of dependency on input. Like, complexity that depends on input and complexity that does not depend on input. *Complexity that does not depend on input* can be referred as *"Constant Complexity"*. In most cases, we are not going to worry about *Constant Complexity*. As constant complexity does not related with input size and it does not grow or shrink whether the input changes or not, we may say that, the effect of the constant complexity is also constant with respect of input size. As the effect of constant complexity is constant and in cases where it does not have significant role on performance, we may say that, it's something not be concerned about, in those cases. And you may find, often, constant complexity does not have significant influence over performance, most of the time it's very very less than the complexity that depends on input size, in practical approaches.
+
 (...to be continued)
