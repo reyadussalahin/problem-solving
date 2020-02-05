@@ -1,3 +1,9 @@
+// problem: https://codeforces.com/contest/1295/problem/E
+// contest: https://codeforces.com/contest/1295
+// author: reyad
+// time: (?)
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
