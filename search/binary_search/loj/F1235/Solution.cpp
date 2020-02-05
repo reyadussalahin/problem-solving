@@ -1,3 +1,10 @@
+// problem name: Coin Change (IV)
+// problem link: http://lightoj.com/volume_showproblem.php?problem=1235
+// contest link: (?)
+// time: (?)
+// author: reshad hasan
+
+
 #include<bits/stdc++.h>
 using namespace std;
  
