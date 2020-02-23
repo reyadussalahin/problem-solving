@@ -1,9 +1,12 @@
 '''
-Problem Name: Infinity Gauntlet
-Problem Link: https://codeforces.com/problemset/problem/987/A
-Author: Ratul
-
+problem Name: Infinity Gauntlet
+problem Link: https://codeforces.com/contest/987/problem/A
+contest Link: https://codeforces.com/contest/987
+author: Ratul
+time: (?)
+other_tags: none
 '''
+
 
 i = int(input())
 
