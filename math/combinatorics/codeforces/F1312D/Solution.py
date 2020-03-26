@@ -1,6 +1,6 @@
 # problem name: Count the Arrays
-# problem link: https://codeforces.com/contest/312/problem/B
-# contest link: https://codeforces.com/contest/312
+# problem link: https://codeforces.com/contest/1312/problem/D
+# contest link: https://codeforces.com/contest/1312
 # time: (?)
 # author: reyad
 
