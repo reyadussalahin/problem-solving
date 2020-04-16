@@ -1,5 +1,8 @@
 # Minimum Spanning Tree (Prims)
- 
+
+## Problem Link :
+[LightOJ](http://lightoj.com/volume_showproblem.php?problem=1059)
+
 ## Solution :
  The problem requires simple solution involving *Minimum Spanning tree*.
 
