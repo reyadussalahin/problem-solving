@@ -69,7 +69,7 @@ int main()
 		for (int i=0 ; i<m ; i++) {
 			int x,y,c;
 			cin>>x>>y>>c;
-			if(c<A) {								//Eliminate edge >= aiport cost
+			if(c<A) {				//Eliminate edge >= aiport cost
 				graph[x].push_back(make_pair(y,c));
 				graph[y].push_back(make_pair(x,c));
 			}
