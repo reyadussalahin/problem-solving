@@ -8,5 +8,4 @@
  With the updated edges, find MST for every disjoint graph and allocate an airport. The sum of all MST costs and cost aiports (one for each) is optimal answer.
  
 ## Complexity : 
- I implemented Prim's MST with Adjacency list for which worst time complexity is *(ElogE)*. MST can be implemented in *(ElogV)* using decrease_key operation on Heap. C++ STL priority_queue doesn't support decrease_key.
-
+ I implemented Prim's MST with Adjacency list for which worst-case complexity is *O(ElogE)*. MST can be implemented in *O(ElogV)* using decrease_key operation on Heap. C++ STL priority_queue doesn't support decrease_key. Have to implement heap manually for this performance which may be significant for large number of edges.
