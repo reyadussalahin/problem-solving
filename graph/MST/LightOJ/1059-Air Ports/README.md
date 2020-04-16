@@ -10,6 +10,6 @@
 
  With the updated edges, find MST for every disjoint graph and allocate an airport for each spanning tree. The sum of all MST and airports cost the is optimal answer.
  
-##Complexity : 
- (ElogE). MST can be made (ElogV) using decrease_key operation on Heap. C++ STL priority_queue doesn't support decrease_key.
- 
+## Complexity : 
+ I implemented Prim's MST with Adjacency list for which worst-case complexity is *O(ElogE)*. MST can be implemented in *O(ElogV)* using decrease_key operation on Heap. C++ STL priority_queue doesn't support decrease_key. Have to implement heap manually for this performance which may be significant for large number of edges. 
+
