@@ -1,13 +1,14 @@
 # Contributing
-Before read this file please read the [README.md](https://github.com/reyadussalahin/problem_solving/blob/dev/README.md) file in project root.
+Before read this file please read the [README.md](README.md) file.
 
+<!--
 You can contribute to this repository by:
 - adding solutions to problems
 - writing tutorials for those solutions
 - writing tutorials for different problem solving techniques related to data structures and algorithms.
+ -->
 
-
-## Process of Contribution
+### Process of Contribution
 The process to contribute this repository may be summarized as follows:
 1. You must have a github account to contribute to this project. You if don't have one, then please create one.
 2. Create a fork of [problem_solving](https://github.com/reyadussalahin/problem_solving) repository.
@@ -21,7 +22,7 @@ The process to contribute this repository may be summarized as follows:
 10. Always perform step(5) before creating any new branch for contribution and always try to pull the latest changes from the root repository's dev branch before commit and pull request.
 
 
-## Rules for contribution
+### Rules for contribution
 1. A new branch should contain only one fix, or one solution, or one tutorial, or one tutorial fix etc. **But never more than one.**
 2. To do another contribution, please use another branch.
 3. Make your dev branch always up to date with the root projects dev branch.
@@ -29,11 +30,9 @@ The process to contribute this repository may be summarized as follows:
 5. And clearly write in the comment of pull request what you've contributed with specific points.
 
 
-## If you are new to git and github:
+# If you are new to git and github:
 If you are new, then you may use the following resources to get started very quickly with git and github:
-- [Git Tutorials Playlist - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
-- [The beginner’s guide to contributing to a GitHub project – Rob Allen's DevNotes](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
-- [Git docs](https://git-scm.com/docs)
-- Or you may use the command line help *"git help command_name"*. Help would be open in terminal or your default browser.
-
-**Anyone is Welcome to Contribute!!!**
+ - [Git Tutorials Playlist - YouTube](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
+ - [The beginner’s guide to contributing to a GitHub project – Rob Allen's DevNotes](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+ - [Git docs](https://git-scm.com/docs)
+ - Or you may use the command line help *"git help command_name"*. Help would be open in terminal or your default browser.
