@@ -7,27 +7,27 @@ Solutions and learning materials have been organized in a careful manner. One mu
 
 ### Structuring problem solutions
 ##### for ojs, those provide unique problem id
- - format: *`{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}`*  
+ - format: `{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}`  
  - example: `data_structure/segment_tree/codeforces/F558E/Solution.c`
 
 ##### for ojs, those provide unique name but does not provide unique problem id
- - format: *`{category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}`*  
+ - format: `{category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}`  
  - example: `data_structure/stack/hackerrank/FBalancedBrackets/Solution.c`
 
 ##### for contest like codejam, hackercup etc.
- - format: *`{CONTEST}/{contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}`*  
+ - format: `{CONTEST}/{contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}`  
  - example: `CONTEST/codejam/Y2019/round01A/FAlienRhyme/Solution.c`
 
 ##### for acm icpc world finals
- - format: *`{CONTEST}/{world_final}/{Y+year}/{F+problem_name}/{Solution.ext}`*  
+ - format: `{CONTEST}/{world_final}/{Y+year}/{F+problem_name}/{Solution.ext}`  
  - example: `CONTEST/world_final/Y2017/FNeedForSpeed/Solution.c`
 
 ##### for acm icpc regionals
-format: *`{CONTEST}/{regional}/{Y+year}/{site}/{F+problem_name}/{Solution.ext}`*  
+format: `{CONTEST}/{regional}/{Y+year}/{site}/{F+problem_name}/{Solution.ext}`  
 example: `CONTEST/regional/Y2017/dhaka/FMegaMind/Solution.c`
 
 ##### for random contests
-format: *`{CONTEST}/{random_contest}/{Y+year}/{contest_name}/{F+problem_name}/{Solution.ext}`*  
+format: `{CONTEST}/{random_contest}/{Y+year}/{contest_name}/{F+problem_name}/{Solution.ext}`  
 example: `CONTEST/random_contest/Y2019/practice_for_preli/FLifeOfPhi/Solution.c`
 
 ##### rules to add multiple solutions
@@ -143,7 +143,7 @@ Writing tutorial is as easy as writing in markdown.
 Currently, we are working on structuring contents for providing learning method in an easy manner. So, if you want to contribute, you may have to wait. But if very eager to contribute, contact [reyad](https://github.com/reyadussalahin).
 
 
-# Conventions used for Online Judge and Category Names:
+# Conventions used for Online Judge and Category Names
 These conventions are accepted by everyone contributing and one must follow them properly.
 
 ### Convention for Online Judge Names
@@ -160,36 +160,38 @@ These are the short-codes for "oj_name" that has been (and will be) used to crea
 
 ### Conventions used for Category and Sub-Category Names
 These are the short-codes for "category_name" and "sub_category_name" has been (and will be) used to create directory
- - ad_hoc:
+ - ad_hoc
+     - beginner
+     - constructive_algorithms
      - implementation
- - brute_force:
+ - brute_force
      - loop
      - recursion
      - backtracking
- - search:
+ - search
      - binary_search
      - ternary_search
- - sort:
+ - sort
      - insertion_sort
      - merge_sort
      - quick_sort
- - math:
+ - math
      - basic
      - probability
      - big_integer
      - combinatorics
      - number_theory
- - dynamic_programming:
+ - dynamic_programming
      - coin_change
      - knapsack
      - lis
      - lcs
      - matrix_chain_mul
      - non_classical
- - greedy:
+ - greedy
      - basic
      - non_classical
- - data_structure:
+ - data_structure
      - array
      - list
      - stack
@@ -198,7 +200,7 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
      - segment_tree
      - sqrt_decomposition
      - treap
- - graph:
+ - graph
      - bfs
      - dfs
      - scc
@@ -207,7 +209,7 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
      - sssp
      - bipartite_matching
      - max_flow
- - string:
+ - string
      - basic
      - kmp
      - trie
@@ -220,14 +222,14 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
  - codejam
 
 ##### Round names for codejam, hackercup etc
- - *Codejam* round name convention:
+ - *Codejam* round name convention
      - qualification
      - round01A
      - round01B
      - round01C
      - round02
      - round03
- - *Hackercup* round name convention:
+ - *Hackercup* round name convention
      - qualification
      - round01
      - round02
