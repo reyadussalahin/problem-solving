@@ -1,227 +1,32 @@
-# What this repository is about
-This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way to learn problems' solutions as well as the related concepts of data structures and algorithms.
+## What this repository is about
+This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way for learning various concepts related to data structures and algorithms.
 
 
-# Languages used for solution (So far)
+### Problems used from the following judges
+ - Codeforces
+ - Codechef
+ - UVa
+ - UVaLive
+ - Timus
+ - Leetcode
+ - HackerEarth
+ - HakcerRank
+
+
+### Languages used for solution (So far)
 - C
 - C++
 - Java
 - Python
 - JavaScript(NodeJS)
+- PHP
 
 
-# How to structure the problem solutions
-### For OJs, those provide unique problem id
-**Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}**  
-Example:  
-- C: data_structure/segment_tree/codeforces/F558E/Solution.c
-- CPP: data_structure/segment_tree/codeforces/F558E/Solution.cpp
-- Java: data_structure/segment_tree/codeforces/F558E/Solution.java
-- Python: data_structure/segment_tree/codeforces/F558E/Solution.py
+## Learning from this repository
+You can start learning from this repository right away. If you are a beginner, start your journey from [this file](LEARNING/contents/README.md) or you can just jump right into your choice of topics.
 
-### For ojs, those provide unique name
-**Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}**  
-Example:  
-- C: data_structure/stack/hackerrank/FBalancedBrackets/Solution.c
-- CPP: data_structure/stack/hackerrank/FBalancedBrackets/Solution.cpp
-- Java: data_structure/stack/hackerrank/FBalancedBrackets/Solution.java
-- Python: data_structure/stack/hackerrank/FBalancedBrackets/Solution.py
+## Contributing
+It's very easy to contribute to this repository. If you know how to solve problems, you can start right away. To learn details about contributing, please read [this guide](https://github.com/reyadussalahin/problem_solving/blob/dev/contributing/README.md).
 
-### For contest like codejam, hackercup etc.
-**Format: {contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}**  
-Example:  
-- C: codejam/Y2019/round01A/FAlienRhyme/Solution.c
-- CPP: codejam/Y2019/round01A/FAlienRhyme/Solution.cpp
-- Java: codejam/Y2019/round01A/FAlienRhyme/Solution.java
-- Python: codejam/Y2019/round01A/FAlienRhyme/Solution.py
-
-### For ACM ICPC World Finals
-**Format: {world_final}/{Y+year}/{F+problem_name}/{Solution.ext}**  
-Example:
-- C: world_final/Y2017/FNeedForSpeed/Solution.c  
-Its same for other languages
-
-### For ACM ICPC Regionals
-**Format: {regional}/{Y+year}/{site}/{F+problem_name}/{Solution.ext}**  
-Example:
-- C: regional/Y2017/dhaka/FMegaMind/Solution.c  
-Its same for other languages
-
-### For random contests
-**Format: {random_contest}/{Y+year}/{contest_name}/{F+problem_name}/{Solution.ext}**  
-Example:
-- C: random_contest/Y2019/practice_for_preli/FLifeOfPhi/Solution.c  
-Its same for other languages
-
-### Rules to add multiple solutions
-If there are multiple solutions, then name the second solution file as Solution001.{ext} such as Solution001.c, and third solution file as Solution002.c and so on ...
-
-
-# What the source file should contain
-1. Source file must contain a working solution
-2. At top of the source file add(you must add this as "comment"):
-    - problem link (must)
-    - contest link (if exists)
-    - author name  (it's good to add author name)
-    - time         (not mandatory)
-
-**Example:**
-
-```
-// problem name: A Simple Task
-// problem link: https://codeforces.com/contest/558/problem/E
-// contest link: https://codeforces.com/contest/558
-// author: reyad
-// timestamp: (?)
-
-#include <stdio.h>
-#define N 100100
-....
-....
-....
-```
-
-
-# How to provide a way for easy learning
-1. Add a README.md file in the category folder to explain the category
-2. Add a README.md file in the sub category folder to explain the sub category
-3. Add a README.md file in the solution folder to explain the solutions
-### README in category
-It should explain what the category. Let us take data structure as an example. We should try to explain:
-1. What is data structure
-2. Why it is needed
-3. Some examples of data structures
-4. Some use case of data structures
-etc.
-
-**N.B. :**
-1. To add images for better explanation, keep the images in: *"{category_name}/{resources}/{images}"* directory
-2. For other resource categories use: *"{category_name}/{resources}/{resource_category_name}"* directory
-
-### README in sub category
-It should explain what the subcategory is. Let us assume segment tree:
-1. What is segment tree, the theory behind it
-2. Implementation details
-3. How to use it to solve problems with examples
-4. Modifications of segement tree like using Lazy propagations with examples
-etc.
-
-**N.B. :**
-1. To add images for better explanation, keep the images in: *"{category_name}/{sub_category_name}/{resources}/{images}"* directory
-2. For other resource categories use: *"{category_name}/{sub_category_name}/{resources}/{resource_category_name}"* directory
-
-### README in solution folder
-1. It should contain problem link
-2. A short problem description(enough to understand the problem)
-3. Explanation of the problem to gain insight how to solve the problem
-4. Explanation of the solutions one by one
-
-May be some much better way be found out later to explain things more easily. But in the mean time let's follow this procedure.
-
-**N.B. :**
-1. To add images for better explanation, keep the images in: *"{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{images}"* directory
-2. For other resource categories use: *"{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name}"* directory
-
-
-# OJ list:
-These are the short-codes for "oj_name" that has been (and will be) used to create directory
-- [Codeforces:](https://codeforces.com)
-    - oj_name: codeforces
-- [Codechef:](https://www.codechef.com/)
-    - oj_name: codechef
-- [Timus:](http://acm.timus.ru/)
-    - oj_name: timus
-- [UVa:](https://uva.onlinejudge.org/)
-    - oj_name: uva
-- [Hackerrank:](https://www.hackerrank.com/)
-    - oj_name: hackerrank
-- [Hackerearth:](https://www.hackerearth.com/)
-    - oj_name: hackerearth
-- [Lightoj:](http://lightoj.com/)
-    - oj_name: loj
-- [SPOJ:](https://www.spoj.com/)
-    - oj_name: spoj
-
-
-# Category and Sub-Category list
-These are the short-codes for "category_name" and "sub_category_name" has been (and will be) used to create directory
-- ad_hoc:
-    - implementation
-- brute_force:
-    - loop
-    - recursion
-    - backtracking
-- search:
-    - binary_search
-    - ternary_search
-- sort:
-    - insertion_sort
-    - merge_sort
-    - quick_sort
-- math:
-    - basic
-    - probability
-    - big_integer
-    - combinatorics
-    - number_theory
-- dynamic_programming:
-    - coin_change
-    - knapsack
-    - lis
-    - lcs
-    - matrix_chain_mul
-    - non_classical
-- greedy:
-- data_structure:
-    - array
-    - list
-    - stack
-    - queue
-    - heap
-    - segment_tree
-    - sqrt_decomposition
-    - treap
-- graph:
-    - bfs
-    - dfs
-    - scc
-    - articulation_point
-    - articulation_bridge
-    - sssp
-    - bipartite_matching
-    - max_flow
-- string:
-    - basic
-    - kmp
-    - trie
-- computational_geometry
-    - basic
-    - convex_hull
-    - picks_theorem
-    - line_sweep
-- hackercup
-- codejam
-
-#### Round names for codejam, hackercup etc
-- *Codejam* round name convention:
-    - qualification
-    - round01A
-    - round01B
-    - round01C
-    - round02
-    - round03
-- *Hackercup* round name convention:
-    - qualification
-    - round01
-    - round02
-    - round03
-
-More categories and sub categories will be added later.
-
-# Getting Started With this repository
-You can start learning from this repository right away. If you are a beginner, start your journey from [this file](contents/README.md)
-
-# Contributing
-To learn details about contributing, please read [Contributing](https://github.com/reyadussalahin/problem_solving/blob/dev/contributing/README.md) file.
 
 **Any one is welcome to contribute!!!**

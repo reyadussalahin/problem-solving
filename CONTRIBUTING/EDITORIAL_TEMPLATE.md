@@ -1,0 +1,16 @@
+# Problem Description
+
+### Problem: [problem name](#)
+### Contest: [contest name](#)
+### Statement
+copy-paste problem statement here. just remeber to add proper formatting such as superscript, subscript, bold, italics as necessary...
+
+#### Constraints
+provide constraints if have any...
+#### Input
+what would be your input...
+#### Output
+what would be output and how to print it such as how many digits after etc..etc...
+
+# Solution
+add your solution process here. don't provide code. only solution process...
