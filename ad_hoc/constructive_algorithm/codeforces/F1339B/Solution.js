@@ -1,8 +1,12 @@
-//problem Name: Sorted Adjacent Differences
-//problem Link: http://codeforces.com/contest/1339/problem/B
-//contest link: http://codeforces.com/contest/1339/
-//time: (?)
-//author : Aman
+// problem name: Sorted Adjacent Differences
+// problem link: http://codeforces.com/contest/1339/problem/B
+// contest link: http://codeforces.com/contest/1339/
+// time: (?)
+// author : aman
+
+
+// other_tags: sortings
+// difficulty_level: beginner
 
 
 //Input Template
@@ -45,6 +49,7 @@ function inpString() {
 	var string = getString();
 	return string;
 }
+
 
 //================================================
 
