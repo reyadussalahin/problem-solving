@@ -9,7 +9,7 @@ Then we can solve the problem *Recursively* or *Iteratively* (hell no!!).
 For every state regarding **i-th** lake and **t** time; the optimal number is determined by the recursive formula:
 
 <div style="text-align:center">
-    <img src="Resources/Images/eqn1.jpg" alt="DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )"/>
+    <img src="resources/images/eqn1.jpg" alt="DP_{i,t}\ =\ \max_{k=1}^{t}\ (\ g_{i,k}\ +\ DP_{i,t-k-travel\_time}\ )"/>
 </div>
 
 Where,
@@ -18,7 +18,7 @@ Where,
 
 Applying some math simplification, we can get:
 <div style="text-align:center">
-    <img src="Resources/Images/eqn2.jpg" alt="g_{i,k}\ =\ k*f_{i}\ -\ b_{i}*\frac{(k-1)*k}{2}"/>
+    <img src="resources/images/eqn2.jpg" alt="g_{i,k}\ =\ k*f_{i}\ -\ b_{i}*\frac{(k-1)*k}{2}"/>
 </div>
 
 Where,
