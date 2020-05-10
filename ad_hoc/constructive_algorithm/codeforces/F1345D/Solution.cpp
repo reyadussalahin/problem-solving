@@ -1,6 +1,6 @@
 // problem_name: Monopole Magnets
 // problem_link: https://codeforces.com/contest/1345/problem/D
-// contest_link: https://codeforces.com/contest/1345/problem/D
+// contest_link: https://codeforces.com/contest/1345
 // time: (?)
 // author: reyad
 
