@@ -13,51 +13,49 @@
 
 using namespace std;
 
-int x[200020];
-int a[200020];
-int seen[200020];
+// solution idea:
+// -----------------------
+// only (RRR...) and 
+//      (LLL...) are the wrongs
+// i.e. no substring of length 3 with same char is allowed
 
-bool cmp(int i, int j) {
-	if(a[i] == a[j]) {
-		return i < j;
-	}
-	return a[i] < a[j];
-}
+char a[200020];
 
 int main() {
 	int tc;
 	scanf("%d", &tc);
 	for(int cc=0; cc<tc; cc++) {
 		int n;
-		scanf("%d", &n);
-		for(int i=0; i<n; i++) {
-			scanf("%d", &a[i]);
-			x[i] = i;
-			seen[i] = false;
-		}
-		sort(x, x + n, cmp);
-		
-		long long cost = 0;
-		int i = 0;
-		while(i < n) {
-			if(!seen[i]) {
-				if(x[i] == 0 || a[x[i]-1] <= a[x[i]]) {
-					i++;
-					continue;
-				}
-				int j = i+1;
-				while(j < n && a[x[j]] == a[x[i]] && x[j] == x[j-1]+1) {
-					seen[j] = true;
-					j++;
-				}
-				cost = cost + a[x[i]-1] - a[x[i]];
-				i = j;
+		scanf("%d %s", &n, a);
+		int c = 1;
+		int cost = 0;
+		for(int i=n-1; i>0; i--) {
+			if(a[i] == a[0]) {
+				c++;
 			} else {
-				i++;
+				break;
 			}
 		}
-
-		printf("%lld\n", cost);
+		if(c == n) { // then, all th chars are same
+			cost = (n / 3) + (((n%3) == 0) ? 0 : 1); // playing method is circular, and all chars are same
+			// so, we need take one more if n is not divided by 3
+			// cause, RRR -> RLR it's good
+			// but,   RRRR -> RRLR, not good(still, RRR is possible). Rather, LRLR would be good(no RRR)
+		} else {
+			n = n - c + 1; // reducing n by the number of last char's which
+			// are same as first char of string, cause playing method is circular
+			for(int i=1; i<n; i++) {
+				if(a[i] == a[i-1]) {
+					c++;
+				} else {
+					cost = cost + (c / 3); // splitting up length c of same chars
+					// printf("%d: %d\n", i, c);
+					c = 1;
+				}
+			}
+			cost = cost + (c / 3);
+		}
+		printf("%d\n", cost);
 	}
 	return 0;
 }
