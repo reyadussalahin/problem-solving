@@ -1,0 +1,17 @@
+version: 2
+
+jobs:
+  tests:
+    docker:
+      - image: circleci/php:7.4-browsers
+
+    steps:
+      - checkout
+
+      - run: sudo apt-get update
+
+workflows:
+  version: 2
+  run-tests:
+    jobs:
+      - tests
