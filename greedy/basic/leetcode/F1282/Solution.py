@@ -9,9 +9,6 @@
 # difficulty_level: medium
 
 
-# submission_link: https://leetcode.com/submissions/detail/405650239/
-
-
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         ans = list()
