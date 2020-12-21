@@ -27,6 +27,7 @@ This repository is created to organize the solutions of problems related to data
  - Python
  - JavaScript(NodeJS)
  - PHP
+ - Ruby
 
 
 ## Learning from this repository
@@ -36,4 +37,4 @@ You can start learning from this repository right away. If you are a beginner, s
 This repository is published under `MIT License`. To know more about license please visit [this link](https://github.com/reyadussalahin/problem-solving/blob/main/LICENSE).
 
 ## Contributing
-It's very easy to contribute to this repository. If you know how to solve problems, you can start right away. To learn details about contributing, please read [this guide](https://github.com/reyadussalahin/problem-solving/blob/main/CONTRIBUTING/README.md).
+It's very easy to contribute to this repository. If you know how to solve problems, you can start right away. To learn details about contributing, please read [this guide](https://github.com/reyadussalahin/problem-solving/blob/main/.github/CONTRIBUTING.md).
