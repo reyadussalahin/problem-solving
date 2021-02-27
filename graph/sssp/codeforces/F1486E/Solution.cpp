@@ -1,3 +1,14 @@
+// problem name: Paired Payment
+// problem link: https://codeforces.com/contest/1486/problem/E
+// contest link: https://codeforces.com/contest/1486
+// time: (?)
+// author: reyad
+
+
+// other_tags: binary search, brute force, constructive algorithms, dp, flows
+// difficulty_level: medium
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
