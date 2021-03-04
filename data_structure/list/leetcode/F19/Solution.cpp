@@ -1,10 +1,19 @@
-// 19. Remove Nth Node From End of List
+// problem name: Remove Nth Node From End of List
+// problem link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+// contest link: (?)
+// time: (?)
+// author: pri1311
 
-// difficulty : medium
 
-// Given the head of a linked list, remove the nth node from the end of the list and return its head.
+// other_tags: (?)
+// difficulty_level: easy
 
-// Follow up: Could you do this in one pass?
+
+/**
+ * meta:
+ *   - short_problem_description: Given the head of a linked list, remove the nth node from the end of the list and return its head.
+ *   - follow_up: Could you do this in one pass?
+ */
 
 /**
  * Definition for singly-linked list.

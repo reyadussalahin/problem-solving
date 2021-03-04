@@ -1,14 +1,19 @@
-// 61. Rotate List
+// problem name: Rotate List
+// problem link: https://leetcode.com/problems/rotate-list/
+// contest link: (?)
+// time: (?)
+// author: pri1311
 
-// Difficulty : medium
 
-// Given the head of a linked list, rotate the list to the right by k places.
+// other_tags: (?)
+// difficulty_level: easy
 
-// example
 
-// Input: head = [1,2,3,4,5], k = 2
-// Output: [4,5,1,2,3]
-
+/**
+ * meta:
+ *   - input: head = [1,2,3,4,5], k = 2
+ *   - output: [4,5,1,2,3]
+ */
 
 /**
  * Definition for singly-linked list.
