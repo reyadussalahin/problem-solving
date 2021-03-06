@@ -6,7 +6,7 @@
 
 
 // other_tags: (?)
-// difficulty_level: easy
+// difficulty_level: beginner
 
 
 /**
