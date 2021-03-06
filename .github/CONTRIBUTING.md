@@ -152,11 +152,14 @@ These are the short-codes for "oj_name" that has been (and will be) used to crea
  - [Codechef](https://www.codechef.com/): codechef
  - [Timus](http://acm.timus.ru/): timus
  - [UVa](https://onlinejudge.org/): uva
+ - [UVaLive](https://icpcarchive.ecs.baylor.edu/): uvalive
  - [Hackerrank](https://www.hackerrank.com/): hackerrank
  - [Hackerearth](https://www.hackerearth.com/): hackerearth
  - [Lightoj](http://lightoj.com/): loj
  - [SPOJ](https://www.spoj.com/): spoj
  - [Leetcode](https://leetcode.com): leetcode
+ - [Project Euler](https://projecteuler.net/): projecteuler
+ - [Atcoder](https://atcoder.jp/): atcoder
 
 ### Conventions used for Category and Sub-Category Names
 These are the short-codes for "category_name" and "sub_category_name" has been (and will be) used to create directory
@@ -175,12 +178,17 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
      - insertion_sort
      - merge_sort
      - quick_sort
+ - amortized_analysis
+     - two_pointers
  - math
      - basic
      - probability
      - big_integer
      - combinatorics
      - number_theory
+ - non_overlapping_subproblem
+     - divide_and_conquer
+     - reduce and conquer
  - dynamic_programming
      - coin_change
      - knapsack

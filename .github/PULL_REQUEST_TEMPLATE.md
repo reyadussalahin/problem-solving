@@ -1,5 +1,5 @@
 # Contributing
-Before read this file please read the [README.md](README.md) file.
+Before read this file please read the [Contributing Guidelines](CONTRIBUTING.md), specially the code structure and how to add problem/solution related information in your code.
 
 <!--
 You can contribute to this repository by:
