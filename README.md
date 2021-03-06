@@ -31,7 +31,7 @@
     </span>
     <span>
         <a href="https://github.com/reyadussalahin/problem-solving/network/members">
-            <img alt="Forks" src="https://img.shields.io/github/forks/reyadussalahin/problem-solving?style=flat&color=pink">
+            <img alt="Forks" src="https://img.shields.io/github/forks/reyadussalahin/problem-solving?style=flat&color=magenta">
         </a>
     </span>
     <span>
@@ -46,32 +46,32 @@
 ## What this repository is about
 This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way for learning various concepts related to data structures and algorithms.
 
-### Topics covered till now(alphabetically)
+### Topics covered till now (Alphabetically)
  - [Ad Hoc](ad_hoc/)
  - [amortized_analysis](amortized_analysis/)
- - [brute_force](/brute_force)
- - [computational_geometry](/computational_geometry)
- - [data_structure](/data_structure)
- - [dynamic_programming](/dynamic_programming)
- - [game](/game)
- - [graph](/graph)
- - [greedy](/greedy)
- - [hashing](/hashing)
- - [math](/math)
- - [non_overlapping_subproblem](/non_overlapping_subproblem)
- - [search](/search)
- - [string](/string)
+ - [brute_force](brute_force/)
+ - [computational_geometry](computational_geometry/)
+ - [data_structure](data_structure/)
+ - [dynamic_programming](dynamic_programming/)
+ - [game](game/)
+ - [graph](graph/)
+ - [greedy](greedy/)
+ - [hashing](hashing/)
+ - [math](math/)
+ - [non_overlapping_subproblem](non_overlapping_subproblem/)
+ - [search](search/)
+ - [string](string/)
 
 Each topic is divided into numerous subtopics, such as you'd find `list`, `stack`, `priority_queue`, `segment_tree`, `treap`, `link_cut_tree` etc. under `data_structure` category. We encourage you add more topic in this list.
 
-### Languages used for solution (So far)
+### Languages used (till now)
  - C
  - C++
  - Java
- - Python
- - JavaScript(NodeJS)
  - PHP
+ - Python
  - Ruby
+ - JavaScript(NodeJS)
  - Racket(Formerly known as `PLT Sceme`)
 
 This languages have been used till now. But we always welcome more new languages whether it is `C#`, `Bash` or `Brainfuck`. We welcome each and every computer language that exists in this universe.
@@ -98,7 +98,7 @@ You can start learning from this repository right away. If you are a beginner, s
 It's very easy to contribute to this repository. If you've already started solving algorithmic problems, you can start right away. To learn details about contributing, please read [this guide](.github/CONTRIBUTING.md).
 
 ## License
-This repository is published under `MIT License`. To know more about license please visit [this link](https://github.com/reyadussalahin/problem-solving/blob/main/LICENSE).
+This repository is published under `MIT License`. To know more about license please visit [this link](LICENSE).
 
 ## Acknowledgements
 To all the contributors and code reviewers.
