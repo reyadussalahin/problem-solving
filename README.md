@@ -16,7 +16,7 @@
     </span>
     <span>
         <a href="https://github.com/reyadussalahin/problem-solving/stargazers">
-            <img alt="Stars" src="https://img.shields.io/github/stars/reyadussalahin/problem-solving?style=flat">
+            <img alt="Stars" src="https://img.shields.io/github/stars/reyadussalahin/problem-solving?style=flat&color=magenta">
         </a>
     </span>
     <span>
@@ -31,7 +31,7 @@
     </span>
     <span>
         <a href="https://github.com/reyadussalahin/problem-solving/network/members">
-            <img alt="Forks" src="https://img.shields.io/github/forks/reyadussalahin/problem-solving?style=flat&color=magenta">
+            <img alt="Forks" src="https://img.shields.io/github/forks/reyadussalahin/problem-solving?style=flat">
         </a>
     </span>
     <span>
@@ -48,19 +48,19 @@ This repository is created to organize the solutions of problems related to data
 
 ### Topics covered till now (Alphabetically)
  - [Ad Hoc](ad_hoc/)
- - [amortized_analysis](amortized_analysis/)
- - [brute_force](brute_force/)
- - [computational_geometry](computational_geometry/)
- - [data_structure](data_structure/)
- - [dynamic_programming](dynamic_programming/)
- - [game](game/)
- - [graph](graph/)
- - [greedy](greedy/)
- - [hashing](hashing/)
- - [math](math/)
- - [non_overlapping_subproblem](non_overlapping_subproblem/)
- - [search](search/)
- - [string](string/)
+ - [Amortized Analysis](amortized_analysis/)
+ - [Brute Force](brute_force/)
+ - [Computational Geometry](computational_geometry/)
+ - [Data Structure](data_structure/)
+ - [Dynamic Programming](dynamic_programming/)
+ - [Game](game/)
+ - [Graph](graph/)
+ - [Greedy](greedy/)
+ - [Hashing](hashing/)
+ - [Math](math/)
+ - [Non-Overlapping Subproblem](non_overlapping_subproblem/)
+ - [Search](search/)
+ - [String](string/)
 
 Each topic is divided into numerous subtopics, such as you'd find `list`, `stack`, `priority_queue`, `segment_tree`, `treap`, `link_cut_tree` etc. under `data_structure` category. We encourage you add more topic in this list.
 
@@ -85,7 +85,7 @@ This languages have been used till now. But we always welcome more new languages
  - [Hackerrank](https://www.hackerrank.com/)
  - [Hackerearth](https://www.hackerearth.com/)
  - [Lightoj](http://lightoj.com/)
- - [SPOJ](https://www.spoj.com/)
+ - [Spoj](https://www.spoj.com/)
  - [Leetcode](https://leetcode.com)
  - [Project Euler](https://projecteuler.net/)
  - [Atcoder](https://atcoder.jp/)

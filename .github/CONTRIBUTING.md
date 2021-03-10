@@ -156,7 +156,7 @@ These are the short-codes for "oj_name" that has been (and will be) used to crea
  - [Hackerrank](https://www.hackerrank.com/): hackerrank
  - [Hackerearth](https://www.hackerearth.com/): hackerearth
  - [Lightoj](http://lightoj.com/): loj
- - [SPOJ](https://www.spoj.com/): spoj
+ - [Spoj](https://www.spoj.com/): spoj
  - [Leetcode](https://leetcode.com): leetcode
  - [Project Euler](https://projecteuler.net/): projecteuler
  - [Atcoder](https://atcoder.jp/): atcoder
