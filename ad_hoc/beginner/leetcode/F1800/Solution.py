@@ -6,7 +6,7 @@
 
 
 # other_tags: two pointers
-# difficulty_level: easy
+# difficulty_level: beginner
 
 
 
