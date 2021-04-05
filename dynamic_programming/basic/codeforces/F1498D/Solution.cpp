@@ -6,7 +6,7 @@
 
 
 // other_tags: graph, dfs and similiar, implementation
-// difficulty_level: medium
+// difficulty_level: intermediate
 
 
 // solution idea:
