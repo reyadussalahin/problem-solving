@@ -246,4 +246,4 @@ These are the short-codes for "category_name" and "sub_category_name" has been (
 More new categories and sub-categories are being introduced regularly and will be added according to needs later.
 
 # How to send pull request
-There is a few rules about how to properly send pull requests to this repo, so that it may easier for us to handle your requests properly. For pull request guidelines, read [this guide](PULL_REQUEST.md).
+There is a few rules about how to properly send pull requests to this repo, so that it may easier for us to handle your requests properly. For pull request guidelines, read [this guide](PULL_REQUEST_TEMPLATE.md).
