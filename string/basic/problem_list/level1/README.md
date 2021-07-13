@@ -2,14 +2,14 @@
 
 
 ### Leetcode
-- [1108](/string/basic/l1-lc-1108)
-- [1796](/string/basic/l1-lc-1796)
-- [1805](/string/basic/l1-lc-1805)
-- [1813](/string/basic/l1-lc-1813)
-- [1816](/string/basic/l1-lc-1816)
+- [1108](/problem-solving/string/basic/l1-lc-1108)
+- [1796](/problem-solving/string/basic/l1-lc-1796)
+- [1805](/problem-solving/string/basic/l1-lc-1805)
+- [1813](/problem-solving/string/basic/l1-lc-1813)
+- [1816](/problem-solving/string/basic/l1-lc-1816)
 
 
 ### LightOJ
-- [1114](/string/basic/l1-loj-1114)
+- [1114](/problem-solving/string/basic/l1-loj-1114)
 
 

@@ -2,19 +2,19 @@
 
 
 ### Codeforces
-- [1091D](/math/combinatorics/l1-cf-1091D)
-- [1475C](/math/combinatorics/l1-cf-1475C)
+- [1091D](/problem-solving/math/combinatorics/l1-cf-1091D)
+- [1475C](/problem-solving/math/combinatorics/l1-cf-1475C)
 
 
 ### Leetcode
-- [1799](/math/combinatorics/l1-lc-1799)
+- [1799](/problem-solving/math/combinatorics/l1-lc-1799)
 
 
 ### LightOJ
-- [1105](/math/combinatorics/l1-loj-1105)
+- [1105](/problem-solving/math/combinatorics/l1-loj-1105)
 
 
 ### Project Euler
-- [15](/math/combinatorics/l1-euler-15)
+- [15](/problem-solving/math/combinatorics/l1-euler-15)
 
 

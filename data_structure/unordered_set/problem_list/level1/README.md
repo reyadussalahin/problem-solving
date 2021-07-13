@@ -2,7 +2,7 @@
 
 
 ### Leetcode
-- [1807](/data_structure/unordered_set/l1-lc-1807)
-- [1817](/data_structure/unordered_set/l1-lc-1817)
+- [1807](/problem-solving/data_structure/unordered_set/l1-lc-1807)
+- [1817](/problem-solving/data_structure/unordered_set/l1-lc-1817)
 
 

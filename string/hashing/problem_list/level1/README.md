@@ -2,7 +2,7 @@
 
 
 ### Spoj
-- [Najpf](/string/hashing/l1-spoj-NAJPF)
-- [Nhay](/string/hashing/l1-spoj-NHAY)
+- [Najpf](/problem-solving/string/hashing/l1-spoj-NAJPF)
+- [Nhay](/problem-solving/string/hashing/l1-spoj-NHAY)
 
 

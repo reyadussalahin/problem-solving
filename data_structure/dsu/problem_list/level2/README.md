@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1213G](/data_structure/dsu/l2-cf-1213G)
+- [1213G](/problem-solving/data_structure/dsu/l2-cf-1213G)
 
 

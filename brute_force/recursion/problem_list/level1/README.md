@@ -2,12 +2,12 @@
 
 
 ### Leetcode
-- [1](/brute_force/recursion/l1-lc-1)
+- [1](/problem-solving/brute_force/recursion/l1-lc-1)
 
 
 ### Project Euler
-- [11](/brute_force/recursion/l1-euler-11)
-- [8](/brute_force/recursion/l1-euler-8)
-- [9](/brute_force/recursion/l1-euler-9)
+- [11](/problem-solving/brute_force/recursion/l1-euler-11)
+- [8](/problem-solving/brute_force/recursion/l1-euler-8)
+- [9](/problem-solving/brute_force/recursion/l1-euler-9)
 
 

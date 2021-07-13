@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [154C](/hashing/set_hashing/l3-cf-154C)
+- [154C](/problem-solving/hashing/set_hashing/l3-cf-154C)
 
 

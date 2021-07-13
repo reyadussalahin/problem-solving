@@ -2,6 +2,6 @@
 
 
 ### LightOJ
-- [1418](/computational_geometry/picks_theorem/l3-loj-1418)
+- [1418](/problem-solving/computational_geometry/picks_theorem/l3-loj-1418)
 
 

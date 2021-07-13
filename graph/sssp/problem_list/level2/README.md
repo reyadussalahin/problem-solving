@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1486E](/graph/sssp/l2-cf-1486E)
+- [1486E](/problem-solving/graph/sssp/l2-cf-1486E)
 
 

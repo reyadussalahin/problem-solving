@@ -2,6 +2,6 @@
 
 
 ### LightOJ
-- [1104](/math/probability/l1-loj-1104)
+- [1104](/problem-solving/math/probability/l1-loj-1104)
 
 

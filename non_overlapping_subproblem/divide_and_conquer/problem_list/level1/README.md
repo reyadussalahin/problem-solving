@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1490D](/non_overlapping_subproblem/divide_and_conquer/l1-cf-1490D)
+- [1490D](/problem-solving/non_overlapping_subproblem/divide_and_conquer/l1-cf-1490D)
 
 

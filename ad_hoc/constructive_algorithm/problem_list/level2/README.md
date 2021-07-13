@@ -2,7 +2,7 @@
 
 
 ### Codeforces
-- [1345D](/ad_hoc/constructive_algorithm/l2-cf-1345D)
-- [1350D](/ad_hoc/constructive_algorithm/l2-cf-1350D)
+- [1345D](/problem-solving/ad_hoc/constructive_algorithm/l2-cf-1345D)
+- [1350D](/problem-solving/ad_hoc/constructive_algorithm/l2-cf-1350D)
 
 

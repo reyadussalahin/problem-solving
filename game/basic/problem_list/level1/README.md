@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1363C](/game/basic/l1-cf-1363C)
+- [1363C](/problem-solving/game/basic/l1-cf-1363C)
 
 

@@ -2,7 +2,7 @@
 
 
 ### Codeforces
-- [1350E](/graph/bfs/l2-cf-1350E)
-- [1437D](/graph/bfs/l2-cf-1437D)
+- [1350E](/problem-solving/graph/bfs/l2-cf-1350E)
+- [1437D](/problem-solving/graph/bfs/l2-cf-1437D)
 
 

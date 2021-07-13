@@ -2,6 +2,6 @@
 
 
 ### Leetcode
-- [1815](/dynamic_programming/non_classical/l3-lc-1815)
+- [1815](/problem-solving/dynamic_programming/non_classical/l3-lc-1815)
 
 

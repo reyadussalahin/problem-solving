@@ -2,6 +2,6 @@
 
 
 ### Leetcode
-- [3](/string/basic/l2-lc-3)
+- [3](/problem-solving/string/basic/l2-lc-3)
 
 

@@ -2,11 +2,11 @@
 
 
 ### Codeforces
-- [1363E](/graph/dfs/l2-cf-1363E)
-- [701E](/graph/dfs/l2-cf-701E)
+- [1363E](/problem-solving/graph/dfs/l2-cf-1363E)
+- [701E](/problem-solving/graph/dfs/l2-cf-701E)
 
 
 ### LightOJ
-- [1108](/graph/dfs/l2-loj-1108)
+- [1108](/problem-solving/graph/dfs/l2-loj-1108)
 
 

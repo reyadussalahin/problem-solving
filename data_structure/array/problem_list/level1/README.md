@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1490F](/data_structure/array/l1-cf-1490F)
+- [1490F](/problem-solving/data_structure/array/l1-cf-1490F)
 
 

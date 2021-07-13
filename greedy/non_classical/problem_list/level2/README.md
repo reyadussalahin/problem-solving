@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1506G](/greedy/non_classical/l2-cf-1506G)
+- [1506G](/problem-solving/greedy/non_classical/l2-cf-1506G)
 
 

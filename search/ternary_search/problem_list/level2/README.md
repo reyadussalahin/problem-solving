@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1355E](/search/ternary_search/l2-cf-1355E)
+- [1355E](/problem-solving/search/ternary_search/l2-cf-1355E)
 
 

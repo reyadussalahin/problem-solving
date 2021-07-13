@@ -1,7 +1,7 @@
 import os
 import shutil
 
-
+REPO_NAME = "problem-solving"
 SOLUTION_DIR_PREFIXES = ("l1-", "l2-", "l3-", "l4-")
 PROBLEM_LIST_DIRNAME = "problem_list"
 LEVEL_DIRNAMES = {
@@ -114,7 +114,8 @@ def add_problems_to_level_readme(level_dirpath, problem_list):
                 problem_id = " ".join(problem_id.split("_"))
                 problem_id = problem_id.title()
                 # write problem id and link with solution directory
-                fixed_solution_dirpath = f"/{solution_dirpath}"
+                fixed_solution_dirpath = os.path.join(REPO_NAME, solution_dirpath)
+                fixed_solution_dirpath = f"/{fixed_solution_dirpath}"
                 readme.write(f"- [{problem_id}]({fixed_solution_dirpath})\n")
             readme.write("\n\n")
 
