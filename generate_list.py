@@ -114,7 +114,8 @@ def add_problems_to_level_readme(level_dirpath, problem_list):
                 problem_id = " ".join(problem_id.split("_"))
                 problem_id = problem_id.title()
                 # write problem id and link with solution directory
-                readme.write(f"- [{problem_id}]({solution_dirpath})\n")
+                fixed_solution_dirpath = f"/{solution_dirpath}"
+                readme.write(f"- [{problem_id}]({fixed_solution_dirpath})\n")
             readme.write("\n\n")
 
 
