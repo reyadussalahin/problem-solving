@@ -46,21 +46,21 @@
 ## What this repository is about
 This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way for learning various concepts related to data structures and algorithms.
 
-### Topics covered till now (Alphabetically)
- - [Ad Hoc](ad_hoc/)
- - [Amortized Analysis](amortized_analysis/)
- - [Brute Force](brute_force/)
- - [Computational Geometry](computational_geometry/)
- - [Data Structure](data_structure/)
- - [Dynamic Programming](dynamic_programming/)
- - [Game](game/)
- - [Graph](graph/)
- - [Greedy](greedy/)
- - [Hashing](hashing/)
- - [Math](math/)
- - [Non-Overlapping Subproblem](non_overlapping_subproblem/)
- - [Search](search/)
- - [String](string/)
+### Table of contents
+ - [Ad Hoc](https://reyadussalahin.github.io/problem-solving/ad_hoc/)
+ - [Amortized Analysis](https://reyadussalahin.github.io/problem-solving/amortized_analysis/)
+ - [Brute Force](https://reyadussalahin.github.io/problem-solving/brute_force/)
+ - [Computational Geometry](https://reyadussalahin.github.io/problem-solving/computational_geometry/)
+ - [Data Structure](https://reyadussalahin.github.io/problem-solving/data_structure/)
+ - [Dynamic Programming](https://reyadussalahin.github.io/problem-solving/dynamic_programming/)
+ - [Game](https://reyadussalahin.github.io/problem-solving/game/)
+ - [Graph](https://reyadussalahin.github.io/problem-solving/graph/)
+ - [Greedy](https://reyadussalahin.github.io/problem-solving/greedy/)
+ - [Hashing](https://reyadussalahin.github.io/problem-solving/hashing/)
+ - [Math](https://reyadussalahin.github.io/problem-solving/math/)
+ - [Non-Overlapping Subproblem](https://reyadussalahin.github.io/problem-solving/non_overlapping_subproblem/)
+ - [Search](https://reyadussalahin.github.io/problem-solving/search/)
+ - [String](https://reyadussalahin.github.io/problem-solving/string/)
 
 Each topic is divided into numerous subtopics, such as you'd find `list`, `stack`, `priority_queue`, `segment_tree`, `treap`, `link_cut_tree` etc. under `data_structure` category. We encourage you add more topic in this list.
 
