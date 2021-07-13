@@ -2,6 +2,6 @@
 
 
 ### Leetcode
-- [1808](math/differential_calculus/l1-lc-1808)
+- [1808](/math/differential_calculus/l1-lc-1808)
 
 

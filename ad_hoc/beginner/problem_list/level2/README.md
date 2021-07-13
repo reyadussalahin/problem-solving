@@ -2,6 +2,6 @@
 
 
 ### Leetcode
-- [807](ad_hoc/beginner/l2-lc-807)
+- [807](/ad_hoc/beginner/l2-lc-807)
 
 

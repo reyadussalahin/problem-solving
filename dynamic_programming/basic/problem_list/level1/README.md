@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1363B](dynamic_programming/basic/l1-cf-1363B)
+- [1363B](/dynamic_programming/basic/l1-cf-1363B)
 
 

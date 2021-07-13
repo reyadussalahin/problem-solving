@@ -2,10 +2,10 @@
 
 
 ### Codeforces
-- [1490D](graph/dfs/l1-cf-1490D)
+- [1490D](/graph/dfs/l1-cf-1490D)
 
 
 ### LightOJ
-- [1111](graph/dfs/l1-loj-1111)
+- [1111](/graph/dfs/l1-loj-1111)
 
 

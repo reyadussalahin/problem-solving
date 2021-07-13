@@ -2,6 +2,6 @@
 
 
 ### LightOJ
-- [109](math/basic/l2-loj-109)
+- [109](/math/basic/l2-loj-109)
 
 

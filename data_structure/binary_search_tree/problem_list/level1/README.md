@@ -2,6 +2,6 @@
 
 
 ### Leetcode
-- [1801](data_structure/binary_search_tree/l1-lc-1801)
+- [1801](/data_structure/binary_search_tree/l1-lc-1801)
 
 

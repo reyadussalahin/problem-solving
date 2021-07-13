@@ -2,6 +2,6 @@
 
 
 ### LightOJ
-- [1117](math/combinatorics/l2-loj-1117)
+- [1117](/math/combinatorics/l2-loj-1117)
 
 

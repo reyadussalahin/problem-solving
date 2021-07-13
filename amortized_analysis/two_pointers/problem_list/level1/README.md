@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [701C](amortized_analysis/two_pointers/l1-cf-701C)
+- [701C](/amortized_analysis/two_pointers/l1-cf-701C)
 
 

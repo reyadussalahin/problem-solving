@@ -2,7 +2,7 @@
 
 
 ### Codeforces
-- [271D](string/hashing/l2-cf-271D)
-- [835D](string/hashing/l2-cf-835D)
+- [271D](/string/hashing/l2-cf-271D)
+- [835D](/string/hashing/l2-cf-835D)
 
 

@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1353D](data_structure/priority_queue/l1-cf-1353D)
+- [1353D](/data_structure/priority_queue/l1-cf-1353D)
 
 

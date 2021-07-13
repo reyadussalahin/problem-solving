@@ -2,6 +2,6 @@
 
 
 ### Codeforces
-- [1498C](dynamic_programming/non_classical/l1-cf-1498C)
+- [1498C](/dynamic_programming/non_classical/l1-cf-1498C)
 
 

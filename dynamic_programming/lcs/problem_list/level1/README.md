@@ -2,6 +2,6 @@
 
 
 ### LightOJ
-- [111](dynamic_programming/lcs/l1-loj-111)
+- [111](/dynamic_programming/lcs/l1-loj-111)
 
 

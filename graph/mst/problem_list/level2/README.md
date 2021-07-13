@@ -2,6 +2,6 @@
 
 
 ### LightOJ
-- [1123](graph/mst/l2-loj-1123)
+- [1123](/graph/mst/l2-loj-1123)
 
 
