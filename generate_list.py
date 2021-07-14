@@ -137,13 +137,18 @@ def add_problems_to_level_readme(level_dirpath, problem_list):
 
 
 
+def generate_list(rootdir):
+    for dirpath, dirnames, filenames in os.walk(rootdir):
+        if inside_subcategory_directory(dirnames):
+            all_level_problem_list = get_all_level_problem_list_organized_by_level_and_oj(dirnames)
+            # print(all_level_problem_list)
+            problem_list_dirpath = create_problem_list_directory(dirpath)
+            for level, level_dirname in LEVEL_DIRNAMES.items():
+                if level in all_level_problem_list:
+                    level_dirpath = create_level_directory(problem_list_dirpath, level_dirname)
+                    add_problems_to_level_readme(level_dirpath, all_level_problem_list[level])
+
 # script starts here
-for dirpath, dirnames, filenames in os.walk("."):
-    if inside_subcategory_directory(dirnames):
-        all_level_problem_list = get_all_level_problem_list_organized_by_level_and_oj(dirnames)
-        # print(all_level_problem_list)
-        problem_list_dirpath = create_problem_list_directory(dirpath)
-        for level, level_dirname in LEVEL_DIRNAMES.items():
-            if level in all_level_problem_list:
-                level_dirpath = create_level_directory(problem_list_dirpath, level_dirname)
-                add_problems_to_level_readme(level_dirpath, all_level_problem_list[level])
+if __name__ == "__main__":
+    rootdir = "."
+    generate_list(rootdir)
