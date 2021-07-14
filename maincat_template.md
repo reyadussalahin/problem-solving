@@ -1,10 +1,10 @@
 [Home](home_url) > [maincat](maincat_url)
 
-<div style="text-align: right;">
+<p align="right">
     <a style="padding-right: 5px; border: red 2px" href="link_to_discuss">Discuss</a>
     |
     <a style="padding-left: 5px;" href="link_to_github_edit_page">Edit on Github</a>
-</div>
+</p>
 
 ## Main Cat Name
 
@@ -42,6 +42,6 @@ some text
 
 
 <!-- at the right end corner add a next btn -->
-<div style="text-align: right">
+<p align="right">
     <a href="#link-to-subcat-1">next 🠖</a>
-</div>
+</p>
