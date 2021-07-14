@@ -1,7 +1,9 @@
-## Divide And Conquer Problem List: Level1
+[Home](../../../../) > [Non Overlapping Subproblem](../../../) > [Divide And Conquer](../../) > [Problem List(Level1)](./)
+
+### Divide And Conquer Problem List: Level1
 
 
-### Codeforces
-- [1490D](/problem-solving/non_overlapping_subproblem/divide_and_conquer/l1-cf-1490D)
+#### Codeforces
+- [1490D](../../l1-cf-1490D)
 
 

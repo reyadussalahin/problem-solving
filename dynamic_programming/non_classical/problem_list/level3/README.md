@@ -1,7 +1,9 @@
-## Non Classical Problem List: Level3
+[Home](../../../../) > [Dynamic Programming](../../../) > [Non Classical](../../) > [Problem List(Level3)](./)
+
+### Non Classical Problem List: Level3
 
 
-### Leetcode
-- [1815](/problem-solving/dynamic_programming/non_classical/l3-lc-1815)
+#### Leetcode
+- [1815](../../l3-lc-1815)
 
 

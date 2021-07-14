@@ -1,13 +1,15 @@
-## Recursion Problem List: Level1
+[Home](../../../../) > [Brute Force](../../../) > [Recursion](../../) > [Problem List(Level1)](./)
+
+### Recursion Problem List: Level1
 
 
-### Leetcode
-- [1](/problem-solving/brute_force/recursion/l1-lc-1)
+#### Leetcode
+- [1](../../l1-lc-1)
 
 
-### Project Euler
-- [11](/problem-solving/brute_force/recursion/l1-euler-11)
-- [8](/problem-solving/brute_force/recursion/l1-euler-8)
-- [9](/problem-solving/brute_force/recursion/l1-euler-9)
+#### Project Euler
+- [11](../../l1-euler-11)
+- [8](../../l1-euler-8)
+- [9](../../l1-euler-9)
 
 
