@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```python
 # problem name: Maximize Score After N Operations
 # problem link: https://leetcode.com/contest/biweekly-contest-48/problems/maximize-score-after-n-operations/

@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Instant View of Big Bang
 // problem link: http://lightoj.com/volume_showproblem.php?problem=1108

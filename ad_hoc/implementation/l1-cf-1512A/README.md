@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Spy Detected!
 // problem link: https://codeforces.com/contest/1512/problem/A

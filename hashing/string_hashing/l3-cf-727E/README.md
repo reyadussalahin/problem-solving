@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Games on a CD
 // problem link: https://codeforces.com/contest/727/problem/E

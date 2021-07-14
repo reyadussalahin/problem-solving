@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Balance the Bits
 // problem link: https://codeforces.com/contest/1504/problem/C

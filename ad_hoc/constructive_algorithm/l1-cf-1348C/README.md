@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem_name: Phoenix and Distribution
 // problem_link: https://codeforces.com/contest/1348/problem/C

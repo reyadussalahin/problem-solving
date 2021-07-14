@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Orac and LCM
 // problem link: https://codeforces.com/contest/1350/problem/C

@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Orac and Game of Life
 // problem link: https://codeforces.com/contest/1350/problem/E

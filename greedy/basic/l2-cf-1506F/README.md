@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Triangular Paths
 // problem link: https://codeforces.com/contest/1506/problem/F

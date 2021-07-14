@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```python
 # problem name: Truncate Sentence
 # problem link: https://leetcode.com/contest/weekly-contest-235/problems/truncate-sentence/

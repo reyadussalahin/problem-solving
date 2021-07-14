@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```python
 # problem name: Minimum Number of Operations to Reinitialize a Permutation
 # problem link: https://leetcode.com/contest/weekly-contest-234/problems/minimum-number-of-operations-to-reinitialize-a-permutation/
