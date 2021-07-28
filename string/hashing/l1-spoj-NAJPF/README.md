@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: NAJPF - Pattern Find
 // problem link: https://www.spoj.com/problems/NAJPF/

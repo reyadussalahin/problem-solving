@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Password
 // problem link: https://codeforces.com/contest/126/problem/B

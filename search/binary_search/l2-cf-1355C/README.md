@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Count Triangles
 // problem link: https://codeforces.com/contest/1355/problem/C

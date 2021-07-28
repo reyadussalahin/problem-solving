@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem_name: Hilbert's Hotel
 // problem_link: https://codeforces.com/contest/1345/problem/C

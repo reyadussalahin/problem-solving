@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Permutation by Sum
 // problem link: https://codeforces.com/contest/1512/problem/E

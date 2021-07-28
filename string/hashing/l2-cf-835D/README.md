@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Palindromic characteristics
 // problem link: https://codeforces.com/contest/835/problem/D

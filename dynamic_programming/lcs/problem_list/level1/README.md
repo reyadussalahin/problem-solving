@@ -1,7 +1,9 @@
-## Lcs Problem List: Level1
+[Home](../../../../) > [Dynamic Programming](../../../) > [Lcs](../../) > [Problem List(Level1)](./)
+
+### Lcs Problem List: Level1
 
 
-### LightOJ
-- [111](/problem-solving/dynamic_programming/lcs/l1-loj-111)
+#### LightOJ
+- [111](../../l1-loj-111)
 
 

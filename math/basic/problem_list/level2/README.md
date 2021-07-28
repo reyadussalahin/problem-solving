@@ -1,7 +1,9 @@
-## Basic Problem List: Level2
+[Home](../../../../) > [Math](../../../) > [Basic](../../) > [Problem List(Level2)](./)
+
+### Basic Problem List: Level2
 
 
-### LightOJ
-- [109](/problem-solving/math/basic/l2-loj-109)
+#### LightOJ
+- [109](../../l2-loj-109)
 
 

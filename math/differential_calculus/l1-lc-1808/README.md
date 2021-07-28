@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```python
 # problem name: Maximize Number of Nice Divisors
 # problem link: https://leetcode.com/contest/weekly-contest-234/problems/maximize-number-of-nice-divisors/

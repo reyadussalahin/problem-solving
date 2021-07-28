@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Ball in Berland
 // problem link: https://codeforces.com/contest/1475/problem/C

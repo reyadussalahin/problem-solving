@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Game On Leaves
 // problem link: https://codeforces.com/contest/1363/problem/C

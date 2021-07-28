@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Johnny and Ancient Computer
 // problem link: https://codeforces.com/contest/1362/problem/A

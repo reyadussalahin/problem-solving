@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Equalize the Array
 // problem link: https://codeforces.com/contest/1490/problem/F

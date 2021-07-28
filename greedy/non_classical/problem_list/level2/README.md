@@ -1,7 +1,9 @@
-## Non Classical Problem List: Level2
+[Home](../../../../) > [Greedy](../../../) > [Non Classical](../../) > [Problem List(Level2)](./)
+
+### Non Classical Problem List: Level2
 
 
-### Codeforces
-- [1506G](/problem-solving/greedy/non_classical/l2-cf-1506G)
+#### Codeforces
+- [1506G](../../l2-cf-1506G)
 
 

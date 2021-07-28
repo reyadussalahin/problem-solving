@@ -74,6 +74,13 @@ def create_level_directory(problem_list_dirpath, level_dirname):
 
     return level_dirpath
 
+def prepare_topbar_navigation_str(maincat, subcat, problem_list_level):
+    problem_list_level_url = f"[{problem_list_level}](./)"
+    sub_url = f"[{subcat}](../../)"
+    main_url = f"[{maincat}](../../../)"
+    home_url = f"[Home](../../../../)"
+    topbar_navigation_str = f"{home_url} > {main_url} > {sub_url} > {problem_list_level_url}"
+    return topbar_navigation_str
 
 
 def add_problems_to_level_readme(level_dirpath, problem_list):
@@ -95,7 +102,14 @@ def add_problems_to_level_readme(level_dirpath, problem_list):
 
     readme_path = os.path.join(level_dirpath, "README.md")
     with open(readme_path, "w") as readme:
-        readme.write(f"## {subcat_title} Problem List: {level_title}\n")
+        topbar_navigation_str = prepare_topbar_navigation_str(
+            maincat_title,
+            subcat_title,
+            f"Problem List({level_title})"
+        )
+        readme.write(f"{topbar_navigation_str}\n")
+        readme.write("\n")
+        readme.write(f"### {subcat_title} Problem List: {level_title}\n")
         readme.write("\n\n")
         # sorting problem list by oj name
         problem_list = sorted(problem_list.items(), key=lambda x: x[0])
@@ -103,7 +117,7 @@ def add_problems_to_level_readme(level_dirpath, problem_list):
         subcat_path = os.path.join(maincat, subcat)
         for oj_fullname, problems in problem_list:
             # put oj_fullname as title for listing problems
-            readme.write(f"### {oj_fullname}\n")
+            readme.write(f"#### {oj_fullname}\n")
             
             problems = sorted(problems) # sort problems by id
             for problem_id, solution_dirname in problems:
@@ -114,21 +128,27 @@ def add_problems_to_level_readme(level_dirpath, problem_list):
                 problem_id = " ".join(problem_id.split("_"))
                 problem_id = problem_id.title()
                 # write problem id and link with solution directory
-                fixed_solution_dirpath = os.path.join(REPO_NAME, solution_dirpath)
-                fixed_solution_dirpath = f"/{fixed_solution_dirpath}"
-                readme.write(f"- [{problem_id}]({fixed_solution_dirpath})\n")
+                # fixed_solution_dirpath = os.path.join(REPO_NAME, solution_dirpath)
+                # fixed_solution_dirpath = f"/{fixed_solution_dirpath}"
+                # readme.write(f"- [{problem_id}]({fixed_solution_dirpath})\n")
+                readme.write(f"- [{problem_id}](../../{solution_dirname})\n")
             readme.write("\n\n")
 
 
 
 
+def generate_list(rootdir):
+    for dirpath, dirnames, filenames in os.walk(rootdir):
+        if inside_subcategory_directory(dirnames):
+            all_level_problem_list = get_all_level_problem_list_organized_by_level_and_oj(dirnames)
+            # print(all_level_problem_list)
+            problem_list_dirpath = create_problem_list_directory(dirpath)
+            for level, level_dirname in LEVEL_DIRNAMES.items():
+                if level in all_level_problem_list:
+                    level_dirpath = create_level_directory(problem_list_dirpath, level_dirname)
+                    add_problems_to_level_readme(level_dirpath, all_level_problem_list[level])
+
 # script starts here
-for dirpath, dirnames, filenames in os.walk("."):
-    if inside_subcategory_directory(dirnames):
-        all_level_problem_list = get_all_level_problem_list_organized_by_level_and_oj(dirnames)
-        # print(all_level_problem_list)
-        problem_list_dirpath = create_problem_list_directory(dirpath)
-        for level, level_dirname in LEVEL_DIRNAMES.items():
-            if level in all_level_problem_list:
-                level_dirpath = create_level_directory(problem_list_dirpath, level_dirname)
-                add_problems_to_level_readme(level_dirpath, all_level_problem_list[level])
+if __name__ == "__main__":
+    rootdir = "."
+    generate_list(rootdir)

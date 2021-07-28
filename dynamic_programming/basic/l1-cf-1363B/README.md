@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Subsequence Hate
 // problem link: https://codeforces.com/contest/1363/problem/B

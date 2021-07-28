@@ -1,7 +1,9 @@
-## Probability Problem List: Level1
+[Home](../../../../) > [Math](../../../) > [Probability](../../) > [Problem List(Level1)](./)
+
+### Probability Problem List: Level1
 
 
-### LightOJ
-- [1104](/problem-solving/math/probability/l1-loj-1104)
+#### LightOJ
+- [1104](../../l1-loj-1104)
 
 

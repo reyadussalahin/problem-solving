@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Text Editor
 // problem link: https://codeforces.com/gym/101466/problem/E

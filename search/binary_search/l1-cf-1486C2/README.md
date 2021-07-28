@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: Guessing the Greatest (hard version)
 // problem link: https://codeforces.com/contest/1486/problem/C2

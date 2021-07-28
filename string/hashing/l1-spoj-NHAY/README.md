@@ -1,4 +1,6 @@
 ## Solutions
+#### 1
+##### Source Code
 ```c++
 // problem name: NHAY - A Needle in the Haystack
 // problem link: https://www.spoj.com/problems/NHAY/
