@@ -2,17 +2,11 @@
 # problem link: https://leetcode.com/problems/merge-two-sorted-lists/
 # contest link: (?)
 # time: (?)
-# author: (?)
+# author: psimanta
 
 
 # other_tags: (?)
 # difficulty_level: easy
-
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 
 
 class Solution:

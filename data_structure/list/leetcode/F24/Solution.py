@@ -2,17 +2,11 @@
 # problem link: https://leetcode.com/problems/swap-nodes-in-pairs/
 # contest link: (?)
 # time: (?)
-# author: (?)
+# author: psimanta
 
 
 # other_tags: (?)
 # difficulty_level: medium
-
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 
 
 class Solution:
